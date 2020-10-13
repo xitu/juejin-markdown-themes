@@ -2,6 +2,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import sass from 'sass';
 import less from 'less';
+import cssnano from 'cssnano';
 
 const sassHandler = (input) => {
   const result = sass.renderSync({ data: input });
@@ -35,8 +36,9 @@ const exts = Object.keys(handlerMap);
 
       const css = await handlerMap[ext](fs.readFileSync(file, 'utf-8'));
       // console.log(css);
+      const { css: minifedCss } = await cssnano.process(css);
 
-      result[key] = css;
+      result[key] = minifedCss;
     }
   }
 

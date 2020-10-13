@@ -15,6 +15,7 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "esm": "^3.2.25",
     "fs-extra": "^9.0.1",
     "less": "^3.12.2",
