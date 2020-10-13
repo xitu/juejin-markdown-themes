@@ -2,11 +2,13 @@
   "name": "juejin-markdown-themes",
   "version": "0.1.0",
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "repository": "git@github.com:xitu/juejin-markdown-themes.git",
   "author": "Rongjian Zhang <pd4d10@gmail.com>",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "node -r esm build.js",
