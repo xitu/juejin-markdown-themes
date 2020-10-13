@@ -1,3 +1,3 @@
-[submodule "themes/default"]
-	path = themes/default
+[submodule "themes/juejin"]
+	path = themes/juejin
 	url = https://github.com/xitu/juejin-markdown-theme-default.git
