@@ -1,0 +1,8 @@
+{
+  "name": "juejin-markdown-themes",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "git@github.com:xitu/juejin-markdown-themes.git",
+  "author": "Rongjian Zhang <pd4d10@gmail.com>",
+  "license": "MIT"
+}
