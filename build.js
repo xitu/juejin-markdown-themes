@@ -3,6 +3,7 @@ import path from 'path';
 import sass from 'sass';
 import less from 'less';
 import cssnano from 'cssnano';
+import themes from './themes';
 
 const sassHandler = (input) => {
   const result = sass.renderSync({ data: input });
@@ -21,25 +22,19 @@ const handlerMap = {
   less: lessHandler,
 };
 
-const exts = Object.keys(handlerMap);
-
 (async function main() {
-  const keys = fs.readdirSync(path.resolve(__dirname, 'themes'));
   const result = {};
 
-  for (let key of keys) {
-    for (let ext of exts) {
-      const file = path.resolve(__dirname, 'themes', key, 'index.' + ext);
-      // console.log(file);
+  for (let [key, p] of Object.entries(themes)) {
+    const file = path.resolve(__dirname, 'themes', key, p);
+    // console.log(file);
 
-      if (!fs.existsSync(file)) continue;
+    const ext = path.extname(file).slice(1);
+    const css = await handlerMap[ext](fs.readFileSync(file, 'utf-8'));
+    // console.log(css);
+    const { css: minifedCss } = await cssnano.process(css);
 
-      const css = await handlerMap[ext](fs.readFileSync(file, 'utf-8'));
-      // console.log(css);
-      const { css: minifedCss } = await cssnano.process(css);
-
-      result[key] = minifedCss;
-    }
+    result[key] = minifedCss;
   }
 
   fs.ensureDirSync(path.resolve(__dirname, 'dist'));
