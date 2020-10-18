@@ -11,7 +11,7 @@
     "index.d.ts"
   ],
   "scripts": {
-    "build": "node -r esm build.js",
+    "build": "rm -rf dist && node -r esm build.js",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
