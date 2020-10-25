@@ -1,4 +1,4 @@
-# 掘金 Markdown 主题列表
+# 掘金 Markdown 主题
 
 ## 使用方法
 
@@ -7,12 +7,17 @@
 ```
 ---
 theme: juejin
+highlight: github
 ---
 ```
 
-主题列表见 [themes.js](./themes.js)
+- Markdown 主题（`theme`）：
+  - [样式列表](./themes.js)
+- 代码高亮（`highlight`）
+  - [样式列表](https://github.com/highlightjs/highlight.js/tree/master/src/styles)
+  - [样式预览](https://highlightjs.org/static/demo/)
 
-## 如何贡献
+## 如何贡献 Markdown 主题
 
 1. 创建一个 Git 仓库（可公开访问），添加主题样式文件（目前支持 Sass，Less 和 CSS），并添加 license（需要兼容 MIT）后提交
 2. Fork 此仓库并克隆到本地，执行 `git submodule init` 初始化 submodule
