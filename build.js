@@ -45,4 +45,10 @@ const handlerMap = {
     path.resolve(__dirname, 'dist/index.js'),
     'module.exports=' + JSON.stringify(result, null, 2)
   );
+
+  // gallery
+  fs.writeFileSync(
+    path.resolve(__dirname, 'gallery/themes.js'),
+    'window.themes=' + JSON.stringify(result)
+  );
 })();
