@@ -7,15 +7,23 @@
 ```
 ---
 theme: juejin
-highlight: github
+highlight: juejin
 ---
 ```
 
-- Markdown 主题（`theme`）：
-  - [样式列表](./themes.js)
-- 代码高亮（`highlight`）
-  - [样式列表](https://github.com/highlightjs/highlight.js/tree/master/src/styles)
-  - [样式预览](https://highlightjs.org/static/demo/)
+### Markdown 主题
+
+使用 `theme` 指定主题，主题列表：
+
+- [juejin](https://github.com/xitu/juejin-markdown-theme-default.git)
+- [github](https://github.com/sindresorhus/github-markdown-css.git)
+
+### 代码高亮主题
+
+使用 `highlight` 指定主题，可以使用 [highlight.js](https://github.com/highlightjs/highlight.js) 中的所有样式：
+
+- [样式列表](https://github.com/highlightjs/highlight.js/tree/master/src/styles)
+- [样式预览](https://highlightjs.org/static/demo/)
 
 ## 如何贡献 Markdown 主题
 
