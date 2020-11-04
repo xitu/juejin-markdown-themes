@@ -36,7 +36,9 @@
         bytemdPluginFootnotes(),
       ];
 
-      fetch('example.txt')
+      fetch(
+        'https://raw.githubusercontent.com/xitu/juejin-markdown-themes/main/gallery/example.md'
+      )
         .then((res) => res.text())
         .then((md) => {
           md = md.replace(
