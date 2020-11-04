@@ -39,6 +39,11 @@
       fetch('example.txt')
         .then((res) => res.text())
         .then((md) => {
+          md = md.replace(
+            '# themes:',
+            '# themes: ' + Object.keys(themes).join(', ')
+          );
+
           const editor = new bytemd.Editor({
             target: document.querySelector('#app'),
             props: {
