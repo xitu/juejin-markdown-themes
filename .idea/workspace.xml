@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc15f16-a064-46e9-a50d-19f3743e6444" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/channing-cyan" beforeDir="false" afterPath="$PROJECT_DIR$/themes/channing-cyan" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604649346776</updated>
-      <workItem from="1604649348019" duration="1170000" />
+      <workItem from="1604649348019" duration="1600000" />
     </task>
     <servers />
   </component>
