@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dc15f16-a064-46e9-a50d-19f3743e6444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/channing-cyan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes.js" afterDir="false" />
-    </list>
+    <list default="true" id="8dc15f16-a064-46e9-a50d-19f3743e6444" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604649346776</updated>
-      <workItem from="1604649348019" duration="219000" />
+      <workItem from="1604649348019" duration="849000" />
     </task>
     <servers />
   </component>
