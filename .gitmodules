@@ -7,6 +7,9 @@
 [submodule "themes/smartblue"]
 	path = themes/smartblue
 	url = git@github.com:cumt-robin/juejin-markdown-theme-smart-blue.git
+[submodule "themes/cyanosis"]
+	path = themes/cyanosis
+	url = https://github.com/linxsbox/juejin-markdown-theme-cyanosis.git
 [submodule "themes/channing-cyan"]
 	path = themes/channing-cyan
 	url = https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan.git
