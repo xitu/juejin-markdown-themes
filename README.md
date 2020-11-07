@@ -23,6 +23,7 @@ highlight: juejin
 #### 社区主题
 
 - [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue)
+- [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis)
 
 ### 代码高亮
 
