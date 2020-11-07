@@ -24,6 +24,7 @@ highlight: juejin
 
 - [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue)
 - [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis)
+- [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan)
 
 ### 代码高亮
 

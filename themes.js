@@ -2,5 +2,6 @@ export default {
   juejin: 'juejin.scss',
   github: 'github-markdown.css',
   smartblue: 'smart-blue.css',
-  cyanosis: 'cyanosis.scss'
+  cyanosis: 'cyanosis.scss',
+  'channing-cyan': 'channing-cyan.scss',
 };
