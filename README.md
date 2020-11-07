@@ -44,7 +44,6 @@ highlight: juejin
 ## 疑难杂症
 
 - [git submodule 删除/修改](https://stackoverflow.com/a/36593218)
-- [主题样式开发工具](https://github.com/linxsbox/juejin-theme)
 
 ## License
 
