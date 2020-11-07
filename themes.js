@@ -3,5 +3,5 @@ export default {
   github: 'github-markdown.css',
   smartblue: 'smart-blue.css',
   cyanosis: 'cyanosis.scss',
-  'channing-cyan': 'channing-cyan.sss',
+  'channing-cyan': 'channing-cyan.scss',
 };
