@@ -13,12 +13,20 @@ highlight: juejin
 
 ### Markdown 主题
 
-使用 `theme` 指定主题，主题列表：
+使用 `theme` 指定主题
 
-- [juejin](https://github.com/xitu/juejin-markdown-theme-default.git)
-- [github](https://github.com/sindresorhus/github-markdown-css.git)
+#### 内置主题
 
-### 代码高亮主题
+- [juejin](https://github.com/xitu/juejin-markdown-theme-default)
+- [github](https://github.com/sindresorhus/github-markdown-css)
+
+#### 社区主题
+
+- [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue)
+- [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis)
+- [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan)
+
+### 代码高亮
 
 使用 `highlight` 指定主题，可以使用 [highlight.js](https://github.com/highlightjs/highlight.js) 中的所有样式：
 
@@ -31,7 +39,8 @@ highlight: juejin
 2. Fork 此仓库并克隆到本地，执行 `git submodule init` 初始化 submodule
 3. 添加第 1 步中创建的仓库为 submodule：`git submodule add [仓库地址] themes/[主题名字]`
 4. 在 `themes.js` 文件中指明样式文件路径
-5. 提交 pull request
+5. 在 `README.md` 中「社区主题」章节中添加你的主题链接
+6. 提交 pull request
 
 ## 疑难杂症
 
