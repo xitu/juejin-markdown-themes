@@ -13,3 +13,6 @@
 [submodule "themes/channing-cyan"]
 	path = themes/channing-cyan
 	url = https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan.git
+[submodule "themes/rebar"]
+	path = themes/rebar
+	url = https://github.com/Rebar0131/rebar-markdown-theme
