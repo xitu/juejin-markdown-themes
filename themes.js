@@ -4,4 +4,5 @@ export default {
   smartblue: 'smart-blue.css',
   cyanosis: 'cyanosis.scss',
   'channing-cyan': 'channing-cyan.scss',
+  rebar: 'rebar-markdown.css'
 };
