@@ -29,4 +29,10 @@ export default {
     path: 'channing-cyan.scss',
     ref: 'e8337e2',
   },
+  'cat': {
+    owner: 'shengxinjing',
+    repo: 'juejin-markdown-theme-cat',
+    path: 'cat.scss',
+    ref: '45aadb0',
+  },
 };
