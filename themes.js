@@ -29,4 +29,10 @@ export default {
     path: 'channing-cyan.scss',
     ref: 'e8337e2',
   },
+  hydrogen: {
+    owner: 'DawnLck',
+    repo: 'juejin-markdown-theme-hydrogen',
+    path: 'hydrogen.scss',
+    ref: 'b6aed6a',
+  },
 };

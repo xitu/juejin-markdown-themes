@@ -29,6 +29,7 @@ highlight: juejin
 | [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue) | [掘金](https://juejin.im/user/2752832847753085) [GitHub](https://github.com/cumt-robin) |
 | [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis) | [掘金](https://juejin.im/user/3175045313873943) [GitHub](https://github.com/linxsbox) |
 | [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [掘金](https://juejin.im/user/2101921963839678) [GitHub](https://github.com/ChanningHan) |
+| [DawnLck](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [掘金](https://juejin.im/user/1028798614345032) [GitHub](https://github.com/DawnLck) |
 
 ### 代码高亮
 
