@@ -1,4 +1,5 @@
 import fs from 'fs-extra';
+import fetch from 'node-fetch';
 import path from 'path';
 import sass from 'sass';
 import less from 'less';
@@ -28,10 +29,12 @@ const handlerMap = {
   fs.ensureDirSync(path.resolve(__dirname, 'dist'));
 
   for (let [key, p] of Object.entries(themes)) {
-    const file = path.resolve(__dirname, 'themes', key, p);
+    const code = await fetch(
+      `https://raw.githubusercontent.com/${p.owner}/${p.repo}/${p.ref}/${p.path}`
+    ).then((res) => res.text());
 
-    const ext = path.extname(file).slice(1);
-    const css = await handlerMap[ext](fs.readFileSync(file, 'utf-8'));
+    const ext = path.extname(p.path).slice(1);
+    const css = await handlerMap[ext](code);
     const { css: minifedCss } = await cssnano.process(css);
 
     // write css
