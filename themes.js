@@ -33,6 +33,6 @@ export default {
     owner: 'DawnLck',
     repo: 'juejin-markdown-theme-hydrogen',
     path: 'hydrogen.scss',
-    ref: 'b6aed6a',
+    ref: '77e6572',
   },
 };
