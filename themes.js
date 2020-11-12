@@ -29,4 +29,10 @@ export default {
     path: 'channing-cyan.scss',
     ref: 'e8337e2',
   },
+  fancy: {
+    owner: 'xrr2016',
+    repo: 'juejin-markdown-theme-fancy',
+    path: 'fancy.scss',
+    ref: '9069b5b',
+  },
 };
