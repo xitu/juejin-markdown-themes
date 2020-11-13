@@ -41,4 +41,10 @@ export default {
     path: 'fancy.scss',
     ref: '9069b5b',
   },
+  ezexam:{
+    owner:"ezshine",
+    repo:'juejin-markdown-theme-ezexam',
+    path:"ezexam.scss",
+    ref: 'b30bfd9',
+  }
 };
