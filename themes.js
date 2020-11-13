@@ -21,7 +21,7 @@ export default {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: '896a8b5',
+    ref: '07a25df',
   },
   'channing-cyan': {
     owner: 'ChanningHan',
@@ -34,5 +34,11 @@ export default {
     repo: 'juejin-markdown-theme-hydrogen',
     path: 'hydrogen.scss',
     ref: '77e6572',
+  },
+  fancy: {
+    owner: 'xrr2016',
+    repo: 'juejin-markdown-theme-fancy',
+    path: 'fancy.scss',
+    ref: '9069b5b',
   },
 };
