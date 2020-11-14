@@ -39,6 +39,6 @@ export default {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: '9069b5b',
+    ref: '0a564a3',
   },
 };
