@@ -29,4 +29,10 @@ export default {
     path: 'channing-cyan.scss',
     ref: 'e8337e2',
   },
+  'condensed-night-purple': {
+    owner: 'Geekhyt',
+    repo: 'condensed-night-purple',
+    path: 'condensed-night-purple.scss',
+    ref: 'dbf552b',
+  }
 };
