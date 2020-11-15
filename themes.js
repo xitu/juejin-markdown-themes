@@ -27,7 +27,19 @@ export default {
     owner: 'ChanningHan',
     repo: 'juejin-markdown-theme-channing-cyan',
     path: 'channing-cyan.scss',
-    ref: 'e8337e2',
+    ref: '53d7c5e',
+  },
+  fancy: {
+    owner: 'xrr2016',
+    repo: 'juejin-markdown-theme-fancy',
+    path: 'fancy.scss',
+    ref: '0a564a3',
+  },
+  hydrogen: {
+    owner: 'DawnLck',
+    repo: 'juejin-markdown-theme-hydrogen',
+    path: 'hydrogen.scss',
+    ref: '0b9a5f1',
   },
   'condensed-night-purple': {
     owner: 'Geekhyt',
