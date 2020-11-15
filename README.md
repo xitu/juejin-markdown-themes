@@ -26,11 +26,11 @@ highlight: juejin
 
 | 主题 | 作者 |
 | --- | --- |
-| [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue) | [掘金](https://juejin.im/user/2752832847753085) [GitHub](https://github.com/cumt-robin) |
-| [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis) | [掘金](https://juejin.im/user/3175045313873943) [GitHub](https://github.com/linxsbox) |
-| [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [掘金](https://juejin.im/user/2101921963839678) [GitHub](https://github.com/ChanningHan) |
-| [fancy](https://github.com/xrr2016/juejin-markdown-theme-fancy) | [掘金](https://juejin.im/user/835284564445415) [GitHub](https://github.com/xrr2016) |
-| [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [掘金](https://juejin.im/user/1028798614345032) [GitHub](https://github.com/DawnLck) |
+| [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue) | [Tusi](https://juejin.im/user/2752832847753085) [@cumt-robin](https://github.com/cumt-robin) |
+| [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis) | [林小帅](https://juejin.im/user/3175045313873943) [@linxsbox](https://github.com/linxsbox) |
+| [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [ChanningHyl🙌](https://juejin.im/user/2101921963839678) [@ChanningHan](https://github.com/ChanningHan) |
+| [fancy](https://github.com/xrr2016/juejin-markdown-theme-fancy) | [冷石 Boy](https://juejin.im/user/835284564445415) [@xrr2016](https://github.com/xrr2016) |
+| [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [DawnLck 在掘金](https://juejin.im/user/1028798614345032) [@DawnLck](https://github.com/DawnLck) |
 
 ### 代码高亮
 
