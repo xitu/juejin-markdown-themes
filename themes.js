@@ -4,12 +4,14 @@ export default {
     repo: 'juejin-markdown-theme-default',
     path: 'juejin.scss',
     ref: '3d8618e',
+    highlight: 'juejin',
   },
   github: {
     owner: 'sindresorhus',
     repo: 'github-markdown-css',
     path: 'github-markdown.css',
     ref: '888d5a0',
+    highlight: 'github',
   },
   smartblue: {
     owner: 'cumt-robin',
@@ -39,7 +41,7 @@ export default {
     owner: 'DawnLck',
     repo: 'juejin-markdown-theme-hydrogen',
     path: 'hydrogen.scss',
-    ref: '0b9a5f1',
+    ref: 'f1fc69b',
   },
   'condensed-night-purple': {
     owner: 'Geekhyt',
