@@ -43,6 +43,12 @@ export default {
     path: 'hydrogen.scss',
     ref: 'f1fc69b',
   },
+  ezexam:{
+    owner:"ezshine",
+    repo:'juejin-markdown-theme-ezexam',
+    path:"ezexam.scss",
+    ref: 'b30bfd9',
+  },
   'condensed-night-purple': {
     owner: 'Geekhyt',
     repo: 'condensed-night-purple',
