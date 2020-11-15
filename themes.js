@@ -41,4 +41,10 @@ export default {
     path: 'fancy.scss',
     ref: '9069b5b',
   },
+  greenwillow: {
+    owner: 'wangly19',
+    repo: 'juejin-markdown-theme-greenwillow',
+    path: 'greenwillow.scss',
+    ref: 'aca95ed',
+  }
 };

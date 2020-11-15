@@ -31,6 +31,7 @@ highlight: juejin
 | [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [掘金](https://juejin.im/user/2101921963839678) [GitHub](https://github.com/ChanningHan) |
 | [fancy](https://github.com/xrr2016/juejin-markdown-theme-fancy) | [掘金](https://juejin.im/user/835284564445415) [GitHub](https://github.com/xrr2016) |
 | [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [掘金](https://juejin.im/user/1028798614345032) [GitHub](https://github.com/DawnLck) |
+| [greenwillow](https://github.com/wangly19/juejin-markdown-theme-greenwillow) | [掘金](https://juejin.im/user/4248168660735310) [GitHub](https://github.com/wangly19) |
 
 ### 代码高亮
 
