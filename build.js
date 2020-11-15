@@ -40,15 +40,19 @@ const handlerMap = {
     // write css
     fs.writeFileSync(path.resolve(__dirname, 'dist', key + '.css'), minifedCss);
 
-    result[key] = minifedCss;
+    result[key] = {
+      style: minifedCss,
+      highlight: p.highlight,
+    };
   }
 
+  // write json
+  fs.writeJsonSync(path.resolve(__dirname, 'dist/index.json'), result);
   // write js
   fs.writeFileSync(
     path.resolve(__dirname, 'dist/index.js'),
     'module.exports=' + JSON.stringify(result, null, 2)
   );
-
   // gallery
   fs.writeFileSync(
     path.resolve(__dirname, 'gallery/themes.js'),
