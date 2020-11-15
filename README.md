@@ -6,11 +6,12 @@
 
 在文章内容前加上 [front matter](https://jekyllrb.com/docs/front-matter/) 格式的元信息：
 
-```
+```yaml
 ---
-theme: juejin
-highlight: juejin
+theme: juejin # Markdown 主题，默认值：juejin
+highlight: juejin # 代码高亮主题，默认值：theme 中指定
 ---
+
 ```
 
 ### Markdown 主题
@@ -44,7 +45,7 @@ highlight: juejin
 
 1. 使用[默认模板](https://github.com/xitu/juejin-markdown-theme-default)创建一个公开的仓库（点击绿色的 Use this template 按钮）
 2. 将其中的 `juejin.scss` 替换为自己创作的样式，目前支持 Sass，Less 和 CSS
-3. Fork 此仓库并克隆到本地，在 `themes.js` 文件中指明样式文件的路径，`ref` 为 commit hash
+3. Fork 此仓库并克隆到本地，在 `themes.js` 文件中指明样式文件的路径，`ref` 为 commit hash，`highlight` 为默认的代码高亮主题（可选）
 4. 在 `README.md` 中「社区主题」章节中添加你的主题和作者信息
 5. 提交 pull request
 
