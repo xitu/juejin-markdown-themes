@@ -31,7 +31,8 @@ highlight: juejin
 | [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [ChanningHyl🙌](https://juejin.im/user/2101921963839678) [@ChanningHan](https://github.com/ChanningHan) | MIT |
 | [fancy](https://github.com/xrr2016/juejin-markdown-theme-fancy) | [冷石 Boy](https://juejin.im/user/835284564445415) [@xrr2016](https://github.com/xrr2016) | MIT |
 | [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [DawnLck 在掘金](https://juejin.im/user/1028798614345032) [@DawnLck](https://github.com/DawnLck) | MIT |
-| [ezexam](https://github.com/ezshine/juejin-markdown-theme-ezexam) | [大帅搞全栈](https://juejin.im/user/2955079655898093) [@ezshine](https://github.com/ezshine) |
+| [condensed-night-purple](https://github.com/Geekhyt/juejin-markdown-themes) | [童欧巴](https://juejin.im/user/3491704662669469) [@Geekhyt](https://github.com/Geekhyt) | MIT |
+| [ezexam](https://github.com/ezshine/juejin-markdown-theme-ezexam) | [大帅搞全栈](https://juejin.im/user/2955079655898093) [@ezshine](https://github.com/ezshine) | MIT |
 
 ### 代码高亮
 

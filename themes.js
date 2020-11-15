@@ -46,5 +46,11 @@ export default {
     repo:'juejin-markdown-theme-ezexam',
     path:"ezexam.scss",
     ref: 'b30bfd9',
+  },
+  'condensed-night-purple': {
+    owner: 'Geekhyt',
+    repo: 'condensed-night-purple',
+    path: 'condensed-night-purple.scss',
+    ref: '3ac72ac',
   }
 };
