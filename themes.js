@@ -41,4 +41,10 @@ export default {
     path: 'hydrogen.scss',
     ref: '0b9a5f1',
   },
+  'condensed-night-purple': {
+    owner: 'Geekhyt',
+    repo: 'condensed-night-purple',
+    path: 'condensed-night-purple.scss',
+    ref: '3ac72ac',
+  }
 };
