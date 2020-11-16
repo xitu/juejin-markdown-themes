@@ -41,7 +41,7 @@ export default {
     owner: 'DawnLck',
     repo: 'juejin-markdown-theme-hydrogen',
     path: 'hydrogen.scss',
-    ref: 'f1fc69b',
+    ref: 'b3f86fb',
   },
   'condensed-night-purple': {
     owner: 'Geekhyt',
