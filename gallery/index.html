@@ -30,7 +30,8 @@
         bytemdPluginFrontmatter(),
         bytemdPluginInjectStyle({
           style(data) {
-            return themes[data.frontmatter?.theme] ?? themes.juejin;
+            const t = themes[data.frontmatter?.theme];
+            return t ? t.style : themes.juejin.style;
           },
         }),
         bytemdPluginFootnotes(),
