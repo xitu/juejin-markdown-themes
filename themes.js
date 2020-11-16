@@ -48,5 +48,11 @@ export default {
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
     ref: '3ac72ac',
+  },
+  greenwillow: {
+    owner: 'wangly19',
+    repo: 'juejin-markdown-theme-greenwillow',
+    path: 'greenwillow.scss',
+    ref: 'aca95ed',
   }
 };
