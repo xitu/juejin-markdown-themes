@@ -6,11 +6,12 @@
 
 在文章内容前加上 [front matter](https://jekyllrb.com/docs/front-matter/) 格式的元信息：
 
-```
+```yaml
 ---
-theme: juejin
-highlight: juejin
+theme: juejin # Markdown 主题，默认值：juejin
+highlight: juejin # 代码高亮主题，默认值：theme 中指定
 ---
+
 ```
 
 ### Markdown 主题
@@ -24,13 +25,14 @@ highlight: juejin
 
 #### 社区主题
 
-| 主题 | 作者 |
-| --- | --- |
-| [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue) | [掘金](https://juejin.im/user/2752832847753085) [GitHub](https://github.com/cumt-robin) |
-| [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis) | [掘金](https://juejin.im/user/3175045313873943) [GitHub](https://github.com/linxsbox) |
-| [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [掘金](https://juejin.im/user/2101921963839678) [GitHub](https://github.com/ChanningHan) |
-| [fancy](https://github.com/xrr2016/juejin-markdown-theme-fancy) | [掘金](https://juejin.im/user/835284564445415) [GitHub](https://github.com/xrr2016) |
-| [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [掘金](https://juejin.im/user/1028798614345032) [GitHub](https://github.com/DawnLck) |
+| 主题 | 作者 | License |
+| --- | --- | --- |
+| [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue) | [Tusi](https://juejin.im/user/2752832847753085) [@cumt-robin](https://github.com/cumt-robin) | MIT |
+| [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis) | [林小帅](https://juejin.im/user/3175045313873943) [@linxsbox](https://github.com/linxsbox) | MIT |
+| [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [ChanningHyl🙌](https://juejin.im/user/2101921963839678) [@ChanningHan](https://github.com/ChanningHan) | MIT |
+| [fancy](https://github.com/xrr2016/juejin-markdown-theme-fancy) | [冷石 Boy](https://juejin.im/user/835284564445415) [@xrr2016](https://github.com/xrr2016) | MIT |
+| [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [DawnLck 在掘金](https://juejin.im/user/1028798614345032) [@DawnLck](https://github.com/DawnLck) | MIT |
+| [condensed-night-purple](https://github.com/Geekhyt/condensed-night-purple) | [童欧巴](https://juejin.im/user/3491704662669469) [@Geekhyt](https://github.com/Geekhyt) | MIT |
 | [greenwillow](https://github.com/wangly19/juejin-markdown-theme-greenwillow) | [掘金](https://juejin.im/user/4248168660735310) [GitHub](https://github.com/wangly19) |
 
 ### 代码高亮
@@ -44,7 +46,7 @@ highlight: juejin
 
 1. 使用[默认模板](https://github.com/xitu/juejin-markdown-theme-default)创建一个公开的仓库（点击绿色的 Use this template 按钮）
 2. 将其中的 `juejin.scss` 替换为自己创作的样式，目前支持 Sass，Less 和 CSS
-3. Fork 此仓库并克隆到本地，在 `themes.js` 文件中指明样式文件的路径，`ref` 为 commit hash
+3. Fork 此仓库并克隆到本地，在 `themes.js` 文件中指明样式文件的路径，`ref` 为 commit hash，`highlight` 为默认的代码高亮主题（可选）
 4. 在 `README.md` 中「社区主题」章节中添加你的主题和作者信息
 5. 提交 pull request
 

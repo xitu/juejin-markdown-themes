@@ -4,12 +4,14 @@ export default {
     repo: 'juejin-markdown-theme-default',
     path: 'juejin.scss',
     ref: '3d8618e',
+    highlight: 'juejin',
   },
   github: {
     owner: 'sindresorhus',
     repo: 'github-markdown-css',
     path: 'github-markdown.css',
     ref: '888d5a0',
+    highlight: 'github',
   },
   smartblue: {
     owner: 'cumt-robin',
@@ -29,17 +31,23 @@ export default {
     path: 'channing-cyan.scss',
     ref: '53d7c5e',
   },
-  hydrogen: {
-    owner: 'DawnLck',
-    repo: 'juejin-markdown-theme-hydrogen',
-    path: 'hydrogen.scss',
-    ref: '9352465',
-  },
   fancy: {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: '9069b5b',
+    ref: '0a564a3',
+  },
+  hydrogen: {
+    owner: 'DawnLck',
+    repo: 'juejin-markdown-theme-hydrogen',
+    path: 'hydrogen.scss',
+    ref: 'f1fc69b',
+  },
+  'condensed-night-purple': {
+    owner: 'Geekhyt',
+    repo: 'condensed-night-purple',
+    path: 'condensed-night-purple.scss',
+    ref: '3ac72ac',
   },
   greenwillow: {
     owner: 'wangly19',
