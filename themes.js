@@ -21,13 +21,13 @@ export default {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: '6812f7b',
+    ref: 'ce51532',
   },
   psite: {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'psite.scss',
-    ref: '6812f7b',
+    ref: 'ce51532',
   },
   'channing-cyan': {
     owner: 'ChanningHan',
