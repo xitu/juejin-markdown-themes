@@ -54,5 +54,11 @@ export default {
     repo: 'juejin-markdown-theme-greenwillow',
     path: 'greenwillow.scss',
     ref: 'aca95ed',
-  }
+  },
+  'v-green': {
+    owner: 'DawnLck',
+    repo: 'juejin-markdown-theme-v-green',
+    path: 'v-green.scss',
+    ref: '015f88b',
+  },
 };

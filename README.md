@@ -34,6 +34,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定
 | [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [DawnLck 在掘金](https://juejin.im/user/1028798614345032) | MIT |
 | [condensed-night-purple](https://github.com/Geekhyt/condensed-night-purple) | [童欧巴](https://juejin.im/user/3491704662669469) | MIT |
 | [greenwillow](https://github.com/wangly19/juejin-markdown-theme-greenwillow) | [wangly19](https://juejin.im/user/4248168660735310) | MIT |
+| [v-green](https://github.com/DawnLck/juejin-markdown-theme-v-green) | [DawnLck 在掘金](https://juejin.im/user/1028798614345032) | MIT |
 
 ### 代码高亮
 
