@@ -8,11 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true
       - run: |
-          yarn
-          yarn build
+          npm install
+          npm run build
       - uses: peaceiris/actions-gh-pages@v2.5.1
         env:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
