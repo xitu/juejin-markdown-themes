@@ -27,7 +27,7 @@ export default {
     owner: 'ChanningHan',
     repo: 'juejin-markdown-theme-channing-cyan',
     path: 'channing-cyan.scss',
-    ref: '53d7c5e',
+    ref: 'c843c2f',
   },
   fancy: {
     owner: 'xrr2016',
