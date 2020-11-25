@@ -61,4 +61,11 @@ export default {
     path: 'v-green.scss',
     ref: '015f88b',
   },
+  'vue-pro': {
+    owner: 'dunizb',
+    repo: 'juejin-markdown-theme-vue-pro',
+    path: 'vue-pro.scss',
+    ref: '836e9bc',
+    highlight: 'juejin'
+  }
 };

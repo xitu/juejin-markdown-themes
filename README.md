@@ -35,6 +35,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定
 | [condensed-night-purple](https://github.com/Geekhyt/condensed-night-purple) | [童欧巴](https://juejin.im/user/3491704662669469) | MIT |
 | [greenwillow](https://github.com/wangly19/juejin-markdown-theme-greenwillow) | [wangly19](https://juejin.im/user/4248168660735310) | MIT |
 | [v-green](https://github.com/DawnLck/juejin-markdown-theme-v-green) | [DawnLck 在掘金](https://juejin.im/user/1028798614345032) | MIT |
+| [vue-pro](https://github.com/dunizb/juejin-markdown-themes) | [杭州程序员张张](https://juejin.cn/user/289926798645575) | MIT |
 
 ### 代码高亮
 
