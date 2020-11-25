@@ -47,6 +47,6 @@ export default {
     owner: 'Geekhyt',
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
-    ref: '3ac72ac',
+    ref: '039d8bc',
   }
 };
