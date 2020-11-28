@@ -24,12 +24,14 @@ export default {
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
     ref: 'ce51532',
+    highlight: 'atom-one-dark'
   },
   psite: {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'psite.scss',
     ref: 'ce51532',
+    highlight: 'atom-one-dark'
   },
   'channing-cyan': {
     owner: 'ChanningHan',
