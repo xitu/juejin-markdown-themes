@@ -72,7 +72,7 @@ export default {
     owner: 'healerLZH',
     repo: 'juejin-markdown-theme-healer-readable',
     path: 'healer-readable.scss',
-    ref: 'c35582e',
+    ref: '3f2ef56',
     highlight: 'srcery'
   }
 };
