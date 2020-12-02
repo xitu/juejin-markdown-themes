@@ -73,6 +73,6 @@ export default {
     repo: 'juejin-markdown-theme-healer-readable',
     path: 'healer-readable.scss',
     ref: 'c35582e',
-    highlight: 'vs2015'
+    highlight: 'srcery'
   }
 };
