@@ -67,5 +67,12 @@ export default {
     path: 'vue-pro.scss',
     ref: '836e9bc',
     highlight: 'juejin'
+  },
+  'healer-readable': {
+    owner: 'healerLZH',
+    repo: 'juejin-markdown-theme-healer-readable',
+    path: 'healer-readable.scss',
+    ref: 'c35582e',
+    highlight: 'vs2015'
   }
 };
