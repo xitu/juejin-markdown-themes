@@ -74,5 +74,11 @@ export default {
     path: 'healer-readable.scss',
     ref: '3f2ef56',
     highlight: 'srcery'
+  },
+  'mk-cute': {
+    owner: 'JackySummer',
+    repo: 'juejin-markdown-theme-mk-cute',
+    path: 'mk-cute.scss',
+    ref: '15d3879',
   }
 };
