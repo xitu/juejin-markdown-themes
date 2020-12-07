@@ -79,6 +79,6 @@ export default {
     owner: 'Jacky-Summer',
     repo: 'juejin-markdown-theme-mk-cute',
     path: 'mk-cute.scss',
-    ref: '15d3879',
+    ref: '50d6414',
   },
 };
