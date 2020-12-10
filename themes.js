@@ -74,5 +74,15 @@ export default {
     path: 'healer-readable.scss',
     ref: '3f2ef56',
     highlight: 'srcery'
+  },
+  'jzman': {
+    owner: 'jzman',
+    repo: 'juejin-markdown-theme-jzman',
+    path: 'jzman.scss',
+    ref: 'db6816e',
+    highlight: 'Monokai'
   }
+  
+  
+  
 };
