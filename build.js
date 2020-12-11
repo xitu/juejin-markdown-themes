@@ -59,3 +59,8 @@ const handlerMap = {
     'window.themes=' + JSON.stringify(result)
   );
 })();
+
+process.on('unhandledRejection', (error) => {
+  console.error('unhandledRejection', error);
+  process.exit(1);
+});
