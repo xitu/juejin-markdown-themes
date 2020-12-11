@@ -24,7 +24,7 @@ export default {
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
     ref: 'ce51532',
-    highlight: 'atom-one-dark'
+    highlight: 'atom-one-dark',
   },
   'channing-cyan': {
     owner: 'ChanningHan',
@@ -76,10 +76,11 @@ export default {
     ref: '3f2ef56',
     highlight: 'srcery',
   },
-  'mk-cute': {
-    owner: 'Jacky-Summer',
-    repo: 'juejin-markdown-theme-mk-cute',
-    path: 'mk-cute.scss',
-    ref: '50d6414',
+  jzman: {
+    owner: 'jzmanu',
+    repo: 'juejin-markdown-theme-jzman',
+    path: 'jzman.scss',
+    ref: 'db6816e',
+    highlight: 'monokai',
   },
 };
