@@ -47,7 +47,7 @@ export default {
     owner: 'Geekhyt',
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
-    ref: '039d8bc',
+    ref: '4f50a4f',
   },
   greenwillow: {
     owner: 'wangly19',
