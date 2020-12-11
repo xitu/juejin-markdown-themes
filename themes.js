@@ -23,13 +23,14 @@ export default {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: '07a25df',
+    ref: 'ce51532',
+    highlight: 'atom-one-dark'
   },
   'channing-cyan': {
     owner: 'ChanningHan',
     repo: 'juejin-markdown-theme-channing-cyan',
     path: 'channing-cyan.scss',
-    ref: 'c843c2f'
+    ref: 'c843c2f',
   },
   fancy: {
     owner: 'xrr2016',
@@ -66,7 +67,7 @@ export default {
     repo: 'juejin-markdown-theme-vue-pro',
     path: 'vue-pro.scss',
     ref: '836e9bc',
-    highlight: 'juejin'
+    highlight: 'juejin',
   },
   'healer-readable': {
     owner: 'healerLZH',
@@ -82,7 +83,4 @@ export default {
     ref: 'db6816e',
     highlight: 'Monokai'
   }
-  
-  
-  
 };

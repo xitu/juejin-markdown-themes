@@ -1,3 +1,4 @@
+
 # 掘金 Markdown 主题
 
 预览：https://xitu.github.io/juejin-markdown-themes/
@@ -25,8 +26,6 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定
 
 #### 社区主题
 
-
-
 | 主题 | 作者 | License |
 | --- | --- | --- |
 | [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue) | [Tusi](https://juejin.im/user/2752832847753085) | MIT |
@@ -40,9 +39,6 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定
 | [vue-pro](https://github.com/dunizb/juejin-markdown-themes) | [杭州程序员张张](https://juejin.cn/user/289926798645575) | MIT |
 | [healer-readable](https://github.com/dunizb/juejin-markdown-theme-healer-readable) | [healer](https://juejin.cn/user/1415826709689208) | MIT |
 | [jzman](https://github.com/jzmanu/juejin-markdown-theme-jzman) | [躬行之](https://juejin.cn/user/3526889030301325) | MIT |
-
-
-
 
 ### 代码高亮
 
