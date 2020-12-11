@@ -37,6 +37,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定
 | [v-green](https://github.com/DawnLck/juejin-markdown-theme-v-green) | [DawnLck 在掘金](https://juejin.cn/user/1028798614345032) | MIT |
 | [vue-pro](https://github.com/dunizb/juejin-markdown-themes) | [杭州程序员张张](https://juejin.cn/user/289926798645575) | MIT |
 | [healer-readable](https://github.com/dunizb/juejin-markdown-theme-healer-readable) | [healer](https://juejin.cn/user/1415826709689208) | MIT |
+| [mk-cute](https://github.com/Jacky-Summer/juejin-markdown-theme-mk-cute) | [JackySummer](https://juejin.cn/user/1257497033714477) | MIT |
 | [jzman](https://github.com/jzmanu/juejin-markdown-theme-jzman) | [躬行之](https://juejin.cn/user/3526889030301325) | MIT |
 
 ### 代码高亮
