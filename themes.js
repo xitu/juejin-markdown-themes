@@ -65,7 +65,7 @@ export default {
     owner: 'dunizb',
     repo: 'juejin-markdown-theme-vue-pro',
     path: 'vue-pro.scss',
-    ref: '836e9bc',
-    highlight: 'juejin'
+    ref: '720e7a9',
+    highlight: 'monokai'
   }
 };
