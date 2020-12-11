@@ -77,10 +77,10 @@ export default {
     highlight: 'srcery'
   },
   'jzman': {
-    owner: 'jzman',
+    owner: 'jzmanu',
     repo: 'juejin-markdown-theme-jzman',
     path: 'jzman.scss',
     ref: 'db6816e',
     highlight: 'Monokai'
-  }
+  },
 };
