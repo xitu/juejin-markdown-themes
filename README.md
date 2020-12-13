@@ -1,6 +1,8 @@
 # 掘金 Markdown 主题
 
-预览：https://xitu.github.io/juejin-markdown-themes/
+[![npm](https://badgen.net/npm/v/juejin-markdown-themes)](https://npm.im/juejin-markdown-themes) [![downloads](https://badgen.net/npm/dt/juejin-markdown-themes)](https://npm.im/juejin-markdown-themes)
+
+[主题预览地址](https://juejin-markdown-themes.netlify.app/)
 
 ## 使用方法
 
@@ -9,7 +11,7 @@
 ```yaml
 ---
 theme: juejin # Markdown 主题，默认值：juejin
-highlight: juejin # 代码高亮主题，默认值：theme 中指定
+highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则默认为 juejin
 ---
 
 ```
@@ -20,8 +22,10 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定
 
 #### 内置主题
 
-- [juejin](https://github.com/xitu/juejin-markdown-theme-default)
-- [github](https://github.com/sindresorhus/github-markdown-css)
+| 主题                                                            | License |
+| --------------------------------------------------------------- | ------- |
+| [juejin](https://github.com/xitu/juejin-markdown-theme-default) | MIT     |
+| [github](https://github.com/sindresorhus/github-markdown-css)   | MIT     |
 
 #### 社区主题
 
