@@ -89,4 +89,11 @@ export default {
     ref: 'db6816e',
     highlight: 'monokai',
   },
+  'geek-black': {
+    owner: 'MageeLin',
+    repo: 'juejin-markdown-theme-geek-black',
+    path: 'geek-black.scss',
+    ref: '2152a4c',
+    highlight: 'monokai',
+  },
 };
