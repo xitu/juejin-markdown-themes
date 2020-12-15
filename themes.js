@@ -74,9 +74,15 @@ export default {
     repo: 'juejin-markdown-theme-healer-readable',
     path: 'healer-readable.scss',
     ref: '3f2ef56',
-    highlight: 'srcery'
+    highlight: 'srcery',
   },
-  jzman: {
+  'mk-cute': {
+    owner: 'Jacky-Summer',
+    repo: 'juejin-markdown-theme-mk-cute',
+    path: 'mk-cute.scss',
+    ref: '50d6414',
+  },
+  'jzman': {
     owner: 'jzmanu',
     repo: 'juejin-markdown-theme-jzman',
     path: 'jzman.scss',
