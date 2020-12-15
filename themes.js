@@ -24,7 +24,7 @@ export default {
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
     ref: 'ce51532',
-    highlight: 'atom-one-dark'
+    highlight: 'atom-one-dark',
   },
   'channing-cyan': {
     owner: 'ChanningHan',
@@ -48,7 +48,7 @@ export default {
     owner: 'Geekhyt',
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
-    ref: '039d8bc',
+    ref: '4f50a4f',
   },
   greenwillow: {
     owner: 'wangly19',
@@ -66,8 +66,8 @@ export default {
     owner: 'dunizb',
     repo: 'juejin-markdown-theme-vue-pro',
     path: 'vue-pro.scss',
-    ref: '836e9bc',
-    highlight: 'juejin',
+    ref: '720e7a9',
+    highlight: 'monokai',
   },
   'healer-readable': {
     owner: 'healerLZH',
@@ -76,11 +76,18 @@ export default {
     ref: '3f2ef56',
     highlight: 'srcery'
   },
-  'jzman': {
+  jzman: {
     owner: 'jzmanu',
     repo: 'juejin-markdown-theme-jzman',
     path: 'jzman.scss',
-    ref: 'db6816e',
-    highlight: 'Monokai'
+    ref: 'b8cf058',
+    highlight: 'monokai',
+  },
+  'geek-black': {
+    owner: 'MageeLin',
+    repo: 'juejin-markdown-theme-geek-black',
+    path: 'geek-black.scss',
+    ref: '2152a4c',
+    highlight: 'monokai',
   },
 };

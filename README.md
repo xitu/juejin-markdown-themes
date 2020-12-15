@@ -1,7 +1,9 @@
 
 # 掘金 Markdown 主题
 
-预览：https://xitu.github.io/juejin-markdown-themes/
+[![npm](https://badgen.net/npm/v/juejin-markdown-themes)](https://npm.im/juejin-markdown-themes) [![downloads](https://badgen.net/npm/dt/juejin-markdown-themes)](https://npm.im/juejin-markdown-themes)
+
+[主题预览地址](https://juejin-markdown-themes.netlify.app/)
 
 ## 使用方法
 
@@ -10,7 +12,7 @@
 ```yaml
 ---
 theme: juejin # Markdown 主题，默认值：juejin
-highlight: juejin # 代码高亮主题，默认值：theme 中指定
+highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则默认为 juejin
 ---
 
 ```
@@ -21,24 +23,28 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定
 
 #### 内置主题
 
-- [juejin](https://github.com/xitu/juejin-markdown-theme-default)
-- [github](https://github.com/sindresorhus/github-markdown-css)
+| 主题                                                            | License |
+| --------------------------------------------------------------- | ------- |
+| [juejin](https://github.com/xitu/juejin-markdown-theme-default) | MIT     |
+| [github](https://github.com/sindresorhus/github-markdown-css)   | MIT     |
 
 #### 社区主题
 
 | 主题 | 作者 | License |
 | --- | --- | --- |
-| [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue) | [Tusi](https://juejin.im/user/2752832847753085) | MIT |
-| [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis) | [林小帅](https://juejin.im/user/3175045313873943) | MIT |
-| [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [ChanningHyl🙌](https://juejin.im/user/2101921963839678) | MIT |
-| [fancy](https://github.com/xrr2016/juejin-markdown-theme-fancy) | [冷石 Boy](https://juejin.im/user/835284564445415) | MIT |
-| [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [DawnLck 在掘金](https://juejin.im/user/1028798614345032) | MIT |
-| [condensed-night-purple](https://github.com/Geekhyt/condensed-night-purple) | [童欧巴](https://juejin.im/user/3491704662669469) | MIT |
-| [greenwillow](https://github.com/wangly19/juejin-markdown-theme-greenwillow) | [wangly19](https://juejin.im/user/4248168660735310) | MIT |
-| [v-green](https://github.com/DawnLck/juejin-markdown-theme-v-green) | [DawnLck 在掘金](https://juejin.im/user/1028798614345032) | MIT |
+| [smartblue](https://github.com/cumt-robin/juejin-markdown-theme-smart-blue) | [Tusi](https://juejin.cn/user/2752832847753085) | MIT |
+| [cyanosis](https://github.com/linxsbox/juejin-markdown-theme-cyanosis) | [林小帅](https://juejin.cn/user/3175045313873943) | MIT |
+| [channing-cyan](https://github.com/ChanningHan/juejin-markdown-theme-channing-cyan) | [ChanningHyl🙌](https://juejin.cn/user/2101921963839678) | MIT |
+| [fancy](https://github.com/xrr2016/juejin-markdown-theme-fancy) | [冷石 Boy](https://juejin.cn/user/835284564445415) | MIT |
+| [hydrogen](https://github.com/DawnLck/juejin-markdown-theme-hydrogen) | [DawnLck 在掘金](https://juejin.cn/user/1028798614345032) | MIT |
+| [condensed-night-purple](https://github.com/Geekhyt/condensed-night-purple) | [童欧巴](https://juejin.cn/user/3491704662669469) | MIT |
+| [greenwillow](https://github.com/wangly19/juejin-markdown-theme-greenwillow) | [wangly19](https://juejin.cn/user/4248168660735310) | MIT |
+| [v-green](https://github.com/DawnLck/juejin-markdown-theme-v-green) | [DawnLck 在掘金](https://juejin.cn/user/1028798614345032) | MIT |
 | [vue-pro](https://github.com/dunizb/juejin-markdown-themes) | [杭州程序员张张](https://juejin.cn/user/289926798645575) | MIT |
 | [healer-readable](https://github.com/dunizb/juejin-markdown-theme-healer-readable) | [healer](https://juejin.cn/user/1415826709689208) | MIT |
+| [mk-cute](https://github.com/Jacky-Summer/juejin-markdown-theme-mk-cute) | [JackySummer](https://juejin.cn/user/1257497033714477) | MIT |
 | [jzman](https://github.com/jzmanu/juejin-markdown-theme-jzman) | [躬行之](https://juejin.cn/user/3526889030301325) | MIT |
+| [geek-black](https://github.com/MageeLin/juejin-markdown-theme-geek-black) | [林景宜](https://juejin.cn/user/404232342875966) | MIT |
 
 ### 代码高亮
 
