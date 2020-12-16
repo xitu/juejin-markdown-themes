@@ -36,7 +36,7 @@ export default {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: '0a564a3',
+    ref: 'eeeb566',
   },
   hydrogen: {
     owner: 'DawnLck',
