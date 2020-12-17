@@ -93,7 +93,7 @@ export default {
     owner: 'MageeLin',
     repo: 'juejin-markdown-theme-geek-black',
     path: 'geek-black.scss',
-    ref: '2152a4c',
+    ref: '7601c42',
     highlight: 'monokai',
   },
 };
