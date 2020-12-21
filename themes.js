@@ -82,7 +82,7 @@ export default {
     path: 'mk-cute.scss',
     ref: '50d6414',
   },
-  'jzman': {
+  jzman: {
     owner: 'jzmanu',
     repo: 'juejin-markdown-theme-jzman',
     path: 'jzman.scss',
