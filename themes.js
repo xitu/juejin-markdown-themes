@@ -36,7 +36,7 @@ export default {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: '0a564a3',
+    ref: 'eeeb566',
   },
   hydrogen: {
     owner: 'DawnLck',
@@ -93,7 +93,7 @@ export default {
     owner: 'MageeLin',
     repo: 'juejin-markdown-theme-geek-black',
     path: 'geek-black.scss',
-    ref: '2152a4c',
+    ref: '7601c42',
     highlight: 'monokai',
   },
 };
