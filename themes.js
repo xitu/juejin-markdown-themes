@@ -100,6 +100,6 @@ export default {
     owner: 'luffyZh',
     repo: 'juejin-markdown-theme-awesome-green',
     path: 'awesome-green.scss',
-    ref: '0d1a43a',
+    ref: '5e8259b',
   },
 };
