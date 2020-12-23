@@ -86,7 +86,7 @@ export default {
     owner: 'jzmanu',
     repo: 'juejin-markdown-theme-jzman',
     path: 'jzman.scss',
-    ref: 'db6816e',
+    ref: 'b8cf058',
     highlight: 'monokai',
   },
   'geek-black': {
