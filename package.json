@@ -11,7 +11,7 @@
     "index.d.ts"
   ],
   "scripts": {
-    "lint": "npx prettier --write -l *.js *.md",    
+    "lint": "npx prettier -l *.js *.md",
     "build": "rm -rf dist && node -r esm build.js",
     "prepublishOnly": "npm run build"
   },
