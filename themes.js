@@ -106,6 +106,6 @@ export default {
     owner: 'QiaokeliHenku',
     repo: 'juejin-markdown-theme-qkl',
     path: 'chocolate.scss',
-    ref: 'e5e8493',
+    ref: '879140e',
   },
 };
