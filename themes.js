@@ -102,4 +102,10 @@ export default {
     path: 'awesome-green.scss',
     ref: '5e8259b',
   },
+  'qklhk-chocolate': {
+    owner: 'QiaokeliHenku',
+    repo: 'juejin-markdown-theme-qkl',
+    path: 'chocolate.scss',
+    ref: '297c2b7',
+  },
 };
