@@ -7,6 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          npm install
-          npm run build
+      - name: install
+        run: npm install
+      - name: lint
+        run: npm run lint
+      - name: build
+        run: npm run build
+      - name: size
+        run: npx bundlesize

@@ -30,13 +30,13 @@ export default {
     owner: 'ChanningHan',
     repo: 'juejin-markdown-theme-channing-cyan',
     path: 'channing-cyan.scss',
-    ref: 'c843c2f'
+    ref: 'c843c2f',
   },
   fancy: {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: '0a564a3',
+    ref: 'eeeb566',
   },
   hydrogen: {
     owner: 'DawnLck',
@@ -48,7 +48,7 @@ export default {
     owner: 'Geekhyt',
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
-    ref: '039d8bc',
+    ref: '4f50a4f',
   },
   greenwillow: {
     owner: 'wangly19',
@@ -66,7 +66,46 @@ export default {
     owner: 'dunizb',
     repo: 'juejin-markdown-theme-vue-pro',
     path: 'vue-pro.scss',
-    ref: '836e9bc',
-    highlight: 'juejin'
-  }
+    ref: '720e7a9',
+    highlight: 'monokai',
+  },
+  'healer-readable': {
+    owner: 'healerLZH',
+    repo: 'juejin-markdown-theme-healer-readable',
+    path: 'healer-readable.scss',
+    ref: '3f2ef56',
+    highlight: 'srcery',
+  },
+  'mk-cute': {
+    owner: 'Jacky-Summer',
+    repo: 'juejin-markdown-theme-mk-cute',
+    path: 'mk-cute.scss',
+    ref: '50d6414',
+  },
+  jzman: {
+    owner: 'jzmanu',
+    repo: 'juejin-markdown-theme-jzman',
+    path: 'jzman.scss',
+    ref: 'b8cf058',
+    highlight: 'monokai',
+  },
+  'geek-black': {
+    owner: 'MageeLin',
+    repo: 'juejin-markdown-theme-geek-black',
+    path: 'geek-black.scss',
+    ref: '7601c42',
+    highlight: 'monokai',
+  },
+  'awesome-green': {
+    owner: 'luffyZh',
+    repo: 'juejin-markdown-theme-awesome-green',
+    path: 'awesome-green.scss',
+    ref: '5e8259b',
+  },
+  'qklhk-chocolate': {
+    owner: 'QiaokeliHenku',
+    repo: 'juejin-markdown-theme-qkl',
+    path: 'chocolate.scss',
+    ref: '297c2b7',
+  },
 };
