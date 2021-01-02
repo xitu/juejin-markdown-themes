@@ -24,7 +24,7 @@ export default {
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
     ref: 'a0d1679',
-    highlight: 'atom-one-dark'
+    highlight: 'atom-one-dark',
   },
   'channing-cyan': {
     owner: 'ChanningHan',
