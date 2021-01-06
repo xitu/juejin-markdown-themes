@@ -23,7 +23,7 @@ export default {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: 'a0d1679',
+    ref: '6b814ea',
     highlight: 'atom-one-dark',
   },
   'channing-cyan': {
