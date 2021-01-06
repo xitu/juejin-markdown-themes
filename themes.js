@@ -23,7 +23,7 @@ export default {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: 'ce51532',
+    ref: 'a0d1679',
     highlight: 'atom-one-dark',
   },
   'channing-cyan': {
@@ -86,7 +86,7 @@ export default {
     owner: 'jzmanu',
     repo: 'juejin-markdown-theme-jzman',
     path: 'jzman.scss',
-    ref: 'db6816e',
+    ref: 'b8cf058',
     highlight: 'monokai',
   },
   'geek-black': {
@@ -95,5 +95,17 @@ export default {
     path: 'geek-black.scss',
     ref: '7601c42',
     highlight: 'monokai',
+  },
+  'awesome-green': {
+    owner: 'luffyZh',
+    repo: 'juejin-markdown-theme-awesome-green',
+    path: 'awesome-green.scss',
+    ref: '5e8259b',
+  },
+  'qklhk-chocolate': {
+    owner: 'QiaokeliHenku',
+    repo: 'juejin-markdown-theme-qkl',
+    path: 'chocolate.scss',
+    ref: '8bbb87d',
   },
 };

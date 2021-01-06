@@ -2,3 +2,4 @@ node_modules/
 dist/
 gallery/themes.js
 .idea/
+yarn.lock
