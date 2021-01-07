@@ -112,6 +112,6 @@ export default {
     owner: 'yp199618',
     repo: 'juejin-markdown-theme-mochi',
     path: 'mochi.scss',
-    ref: 'e58486f',
+    ref: '3110b78',
   },
 };
