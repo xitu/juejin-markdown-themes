@@ -46,6 +46,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [geek-black](https://github.com/MageeLin/juejin-markdown-theme-geek-black) | [林景宜](https://juejin.cn/user/404232342875966) | MIT |
 | [awesome-green](https://github.com/luffyZh/juejin-markdown-theme-awesome-green) | [luffyZh](https://juejin.cn/user/96412752681079) | MIT |
 | [mochi](https://github.com/yp199618/juejin-markdown-theme-mochi) | [密州城南渔利先生](https://juejin.cn/user/1257497034492376) | MIT |
+
 ### 代码高亮
 
 使用 `highlight` 指定主题，可以使用 [highlight.js](https://github.com/highlightjs/highlight.js) 中的所有样式：
