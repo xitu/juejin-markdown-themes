@@ -69,12 +69,6 @@ const handlerMap = {
     name: _.camelCase(pkg.name),
     file: path.resolve(__dirname, 'dist/index.js'),
   });
-
-  // gallery
-  fs.writeFileSync(
-    path.resolve(__dirname, 'gallery/themes.js'),
-    'window.themes=' + JSON.stringify(result)
-  );
 })();
 
 process.on('unhandledRejection', (error) => {
