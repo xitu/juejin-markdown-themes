@@ -4,7 +4,12 @@ import path from 'path';
 import sass from 'sass';
 import less from 'less';
 import cssnano from 'cssnano';
+import { rollup } from 'rollup';
+import virtual from '@rollup/plugin-virtual';
+import _ from 'lodash';
 import themes from './themes';
+
+const pkg = require('./package.json');
 
 const sassHandler = (input) => {
   const result = sass.renderSync({ data: input });
@@ -35,6 +40,7 @@ const handlerMap = {
 
     const ext = path.extname(p.path).slice(1);
     const css = await handlerMap[ext](code);
+
     const { css: minifedCss } = await cssnano.process(css);
 
     // write css
@@ -48,11 +54,22 @@ const handlerMap = {
 
   // write json
   fs.writeJsonSync(path.resolve(__dirname, 'dist/index.json'), result);
+
   // write js
-  fs.writeFileSync(
-    path.resolve(__dirname, 'dist/index.js'),
-    'module.exports=' + JSON.stringify(result, null, 2)
-  );
+  const res = await rollup({
+    input: pkg.name,
+    plugins: [
+      virtual({
+        [pkg.name]: 'export default ' + JSON.stringify(result, null, 2),
+      }),
+    ],
+  });
+  const output = await res.write({
+    format: 'umd',
+    name: _.camelCase(pkg.name),
+    file: path.resolve(__dirname, 'dist/index.js'),
+  });
+
   // gallery
   fs.writeFileSync(
     path.resolve(__dirname, 'gallery/themes.js'),
