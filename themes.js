@@ -108,4 +108,11 @@ export default {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'hey-rain': {
+    owner: 'Harhao',
+    repo: 'juejin-markdown-theme-hey-rain',
+    path: 'hay-rain.scss',
+    ref: 'ee3c9c6',
+    highlight: 'Hopscotch',
+  },
 };
