@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/@bytemd/plugin-frontmatter"></script>
     <script src="https://unpkg.com/@bytemd/plugin-inject-style"></script>
     <script src="https://unpkg.com/@bytemd/plugin-footnotes"></script>
-    <script src="https://unpkg.com/juejin-markdown-themes/dist/index.js"></script>
+    <script src="themes.js"></script>
     <style>
       #app {
         margin: 0 auto;
@@ -30,8 +30,8 @@
         bytemdPluginFrontmatter(),
         bytemdPluginInjectStyle({
           style(data) {
-            const t = juejinMarkdownThemes[data.frontmatter?.theme];
-            return t ? t.style : juejinMarkdownThemes.juejin.style;
+            const t = themes[data.frontmatter?.theme];
+            return t ? t.style : themes.juejin.style;
           },
         }),
         bytemdPluginFootnotes(),
@@ -44,7 +44,7 @@
         .then((md) => {
           md = md.replace(
             '# themes:',
-            '# themes: ' + Object.keys(juejinMarkdownThemes).join(', ')
+            '# themes: ' + Object.keys(themes).join(', ')
           );
 
           const editor = new bytemd.Editor({
