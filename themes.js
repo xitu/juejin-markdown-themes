@@ -108,4 +108,10 @@ export default {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'rude-crab': {
+    owner: 'RudeCrab',
+    repo: 'juejin-markdown-theme-rude-crab',
+    path: 'rude-crab.scss',
+    ref: '82365a9',
+  },
 };
