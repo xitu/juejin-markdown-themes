@@ -108,4 +108,11 @@ export default {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'hoarfroster': {
+    owner: 'PassionPenguin',
+    repo: 'XituHoarfrosterTheme',
+    path: 'hoarfroster.scss',
+    ref: '286aa935a72a38339bf3dba7b5596552d4929591',
+    highlight: 'atom-one-light'
+  }
 };
