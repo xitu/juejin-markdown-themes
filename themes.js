@@ -1,4 +1,9 @@
-export default {
+// @ts-check
+
+/**
+ * @type {Record<string, {owner:string,repo:string,path:string,ref:string,highlight?:string}>}
+ */
+const themes = {
   juejin: {
     owner: 'xitu',
     repo: 'juejin-markdown-theme-default',
@@ -109,3 +114,5 @@ export default {
     ref: '8bbb87d',
   },
 };
+
+export default themes;

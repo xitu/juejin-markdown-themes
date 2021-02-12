@@ -4,6 +4,7 @@ import path from 'path';
 import sass from 'sass';
 import less from 'less';
 import cssnano from 'cssnano';
+import postcss from 'postcss';
 import { rollup } from 'rollup';
 import virtual from '@rollup/plugin-virtual';
 import _ from 'lodash';
@@ -34,6 +35,8 @@ const handlerMap = {
   fs.ensureDirSync(path.resolve(__dirname, 'dist'));
 
   for (let [key, p] of Object.entries(themes)) {
+    console.log(key, 'start');
+
     const code = await fetch(
       `https://raw.githubusercontent.com/${p.owner}/${p.repo}/${p.ref}/${p.path}`
     ).then((res) => res.text());
@@ -41,15 +44,40 @@ const handlerMap = {
     const ext = path.extname(p.path).slice(1);
     const css = await handlerMap[ext](code);
 
+    // check external url
+    await postcss()
+      .process(css)
+      .then((res) => {
+        res.root.walk((node) => {
+          if (
+            node.type === 'decl' &&
+            /url\(['"]?(https?:)?\/\//.test(node.value)
+          ) {
+            throw new Error('External URL is not allowed');
+          }
+
+          if (
+            node.type === 'rule' &&
+            node.selectors.some((s) => {
+              return !s.startsWith('.markdown-body');
+            }) &&
+            node.parent.name !== 'keyframes' // allow keyframes
+          ) {
+            throw new Error('Style must be wrapped with .markdown-body');
+          }
+        });
+      });
+
     const { css: minifedCss } = await cssnano.process(css);
 
     // write css
-    fs.writeFileSync(path.resolve(__dirname, 'dist', key + '.css'), minifedCss);
+    fs.writeFileSync(path.resolve(__dirname, 'dist', key + '.css'), css);
 
     result[key] = {
       style: minifedCss,
       highlight: p.highlight,
     };
+    console.log(key, 'end');
   }
 
   // write json
