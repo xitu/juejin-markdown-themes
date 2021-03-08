@@ -1,3 +1,4 @@
+// @ts-check
 import fs from 'fs-extra';
 import fetch from 'node-fetch';
 import path from 'path';
@@ -9,8 +10,7 @@ import { rollup } from 'rollup';
 import virtual from '@rollup/plugin-virtual';
 import _ from 'lodash';
 import themes from './themes';
-
-const pkg = require('./package.json');
+import pkg from './package.json';
 
 const sassHandler = (input) => {
   const result = sass.renderSync({ data: input });
@@ -30,9 +30,10 @@ const handlerMap = {
 };
 
 (async function main() {
-  const result = {};
-
   fs.ensureDirSync(path.resolve(__dirname, 'dist'));
+
+  const result = {};
+  let lazyCode = 'module.exports={';
 
   for (let [key, p] of Object.entries(themes)) {
     console.log(key, 'start');
@@ -68,23 +69,34 @@ const handlerMap = {
         });
       });
 
-    const { css: minifedCss } = await cssnano.process(css);
+    const { css: minCss } = await cssnano.process(css);
 
     // write css
     fs.writeFileSync(path.resolve(__dirname, 'dist', key + '.css'), css);
+    fs.writeFileSync(path.resolve(__dirname, 'dist', key + '.min.css'), minCss);
 
     result[key] = {
-      style: minifedCss,
+      style: minCss,
       highlight: p.highlight,
     };
+
+    fs.writeFileSync(
+      path.resolve(__dirname, 'dist', `${key}.js`),
+      `module.exports=${JSON.stringify(minCss)}`
+    );
+    lazyCode += `'${key}':{ highlight: ${JSON.stringify(
+      p.highlight
+    )}, style: () => import('./${key}') },`;
+
     console.log(key, 'end');
   }
+  lazyCode += '}';
 
-  // write json
+  // write index.json
   fs.writeJsonSync(path.resolve(__dirname, 'dist/index.json'), result);
 
-  // write js
-  const res = await rollup({
+  // write index.js
+  const build = await rollup({
     input: pkg.name,
     plugins: [
       virtual({
@@ -92,11 +104,14 @@ const handlerMap = {
       }),
     ],
   });
-  const output = await res.write({
+  await build.write({
     format: 'umd',
     name: _.camelCase(pkg.name),
     file: path.resolve(__dirname, 'dist/index.js'),
   });
+
+  // write lazy.js
+  fs.writeFileSync(path.resolve(__dirname, 'dist/lazy.js'), lazyCode);
 
   // gallery
   fs.writeFileSync(
