@@ -126,7 +126,7 @@ const themes = {
     path: 'scrolls-dark.scss',
     ref: '67ef48f',
     highlight: 'atom-one-dark'
-  },
+  }
 };
 
 export default themes;
