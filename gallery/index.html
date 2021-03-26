@@ -9,9 +9,8 @@
     <script src="https://unpkg.com/bytemd"></script>
     <script src="https://unpkg.com/@bytemd/plugin-gfm"></script>
     <script src="https://unpkg.com/@bytemd/plugin-frontmatter"></script>
-    <script src="https://unpkg.com/@bytemd/plugin-inject-style"></script>
     <script src="https://unpkg.com/@bytemd/plugin-footnotes"></script>
-    <script src="https://unpkg.com/juejin-markdown-themes/dist/index.js"></script>
+    <script src="themes.js"></script>
     <style>
       #app {
         margin: 0 auto;
@@ -28,23 +27,26 @@
       const plugins = [
         bytemdPluginGfm(),
         bytemdPluginFrontmatter(),
-        bytemdPluginInjectStyle({
-          style(data) {
-            const t = juejinMarkdownThemes[data.frontmatter?.theme];
-            return t ? t.style : juejinMarkdownThemes.juejin.style;
-          },
-        }),
         bytemdPluginFootnotes(),
+        {
+          viewerEffect({ file }) {
+            const $style = document.createElement('style');
+            $style.innerHTML =
+              themes[file.frontmatter.theme]?.style ?? themes.juejin.style;
+            document.head.appendChild($style);
+            return () => {
+              $style.remove();
+            };
+          },
+        },
       ];
 
-      fetch(
-        'https://raw.githubusercontent.com/xitu/juejin-markdown-themes/main/gallery/example.md'
-      )
+      fetch('/example.md')
         .then((res) => res.text())
         .then((md) => {
           md = md.replace(
             '# themes:',
-            '# themes: ' + Object.keys(juejinMarkdownThemes).join(', ')
+            '# themes: ' + Object.keys(themes).join(', ')
           );
 
           const editor = new bytemd.Editor({
