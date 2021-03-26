@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "path": "dist/**/*.css",
+      "path": "dist/**/*.min.css",
       "maxSize": "20 kB",
       "compression": "none"
     }
