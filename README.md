@@ -46,7 +46,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [geek-black](https://github.com/MageeLin/juejin-markdown-theme-geek-black) | [林景宜](https://juejin.cn/user/404232342875966) | MIT |
 | [awesome-green](https://github.com/luffyZh/juejin-markdown-theme-awesome-green) | [luffyZh](https://juejin.cn/user/96412752681079) | MIT |
 | [scrolls-light](https://github.com/daodaolee/juejin-markdown-theme-scrolls-light) | [道道里](https://juejin.cn/user/166781497122039) | MIT |
-| [scrolls-dark](https://github.com/daodaolee/juejin-markdown-theme-scrolls-dark) | [道道里](https://juejin.cn/user/166781497122039) | MIT |
+
 
 ### 代码高亮
 

@@ -117,15 +117,7 @@ const themes = {
     owner: 'daodaolee',
     repo: 'juejin-markdown-theme-scrolls-light',
     path: 'scrolls-light.scss',
-    ref: '6d7819f',
-    highlight: 'solarized-light',
-  },
-  'scrolls-dark': {
-    owner: 'daodaolee',
-    repo: 'juejin-markdown-theme-scrolls-dark',
-    path: 'scrolls-dark.scss',
-    ref: '67ef48f',
-    highlight: 'atom-one-dark-reasonable',
+    ref: 'e15fd59',
   },
 };
 
