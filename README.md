@@ -47,7 +47,6 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [awesome-green](https://github.com/luffyZh/juejin-markdown-theme-awesome-green) | [luffyZh](https://juejin.cn/user/96412752681079) | MIT |
 | [scrolls-light](https://github.com/daodaolee/juejin-markdown-theme-scrolls-light) | [道道里](https://juejin.cn/user/166781497122039) | MIT |
 
-
 ### 代码高亮
 
 使用 `highlight` 指定主题，可以使用 [highlight.js](https://github.com/highlightjs/highlight.js) 中的所有样式：
