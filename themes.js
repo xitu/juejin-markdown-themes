@@ -113,6 +113,13 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'hey-rain': {
+    owner: 'Harhao',
+    repo: 'juejin-markdown-theme-hey-rain',
+    path: 'hey-rain.scss',
+    ref: '87b9c47',
+    highlight: 'Hopscotch',
+  },
 };
 
 export default themes;
