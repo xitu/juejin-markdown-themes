@@ -115,9 +115,9 @@ const themes = {
   },
   'scrolls-light': {
     owner: 'daodaolee',
-    repo: 'juejin-markdown-theme-scrolls-light',
-    path: 'scrolls-light.scss',
-    ref: '1b0cc48',
+    repo: 'juejin-markdown-theme-scrolls',
+    path: 'scrolls.scss',
+    ref: 'cebc694',
   },
 };
 
