@@ -113,6 +113,12 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'cat': {
+    owner: 'shengxinjing',
+    repo: 'juejin-markdown-theme-cat',
+    path: 'cat.scss',
+    ref: '45aadb0',
+  },
 };
 
 export default themes;
