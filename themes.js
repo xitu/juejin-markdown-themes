@@ -113,6 +113,12 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'rude-crab': {
+    owner: 'RudeCrab',
+    repo: 'juejin-markdown-theme-rude-crab',
+    path: 'rude-crab.scss',
+    ref: '534fe6e',
+  },
 };
 
 export default themes;
