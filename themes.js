@@ -118,6 +118,7 @@ const themes = {
     repo: 'juejin-markdown-theme-arknights',
     path: 'arknights.scss',
     ref: '864ae81',
+    highlight: 'atom-one-light',
   },
 };
 
