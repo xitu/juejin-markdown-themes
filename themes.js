@@ -113,6 +113,12 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  arknights: {
+    owner: 'viewweiwu',
+    repo: 'juejin-markdown-theme-arknights',
+    path: 'arknights.scss',
+    ref: '864ae81',
+  },
 };
 
 export default themes;
