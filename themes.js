@@ -15,7 +15,7 @@ export default {
     owner: 'cumt-robin',
     repo: 'juejin-markdown-theme-smart-blue',
     path: 'smart-blue.css',
-    ref: '96380ac',
+    ref: '391e2b5',
   },
   cyanosis: {
     owner: 'linxsbox',
