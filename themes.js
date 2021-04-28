@@ -113,6 +113,12 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'simplicity-green': {
+    owner: 'GuoJikun',
+    repo: 'juejin-markdown-theme-simplicity-green',
+    path: 'simplicity-green.scss',
+    ref: 'b9c06ed',
+  },
 };
 
 export default themes;
