@@ -113,6 +113,12 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'arrows-blue': {
+    owner: 'vitaviva',
+    repo: 'juejin-markdown-theme-arrows-blue',
+    path: 'arrows-blue.scss',
+    ref: '43bf63d',
+  },
 };
 
 export default themes;
