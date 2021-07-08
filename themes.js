@@ -113,6 +113,13 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'yue-style': {
+    owner: 'ayue-coder',
+    repo: 'yue-style',
+    path: 'yue-style.scss',
+    ref: '71b588f',
+    highlight: 'monokai',
+  },
 };
 
 export default themes;
