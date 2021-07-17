@@ -1,9 +1,14 @@
-export default {
+// @ts-check
+
+/**
+ * @type {Record<string, {owner:string,repo:string,path:string,ref:string,highlight?:string}>}
+ */
+const themes = {
   juejin: {
     owner: 'xitu',
     repo: 'juejin-markdown-theme-default',
     path: 'juejin.scss',
-    ref: '3d8618e',
+    ref: '195cbb0',
     highlight: 'juejin',
   },
   github: {
@@ -23,7 +28,7 @@ export default {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: 'ce51532',
+    ref: '6b814ea',
     highlight: 'atom-one-dark',
   },
   'channing-cyan': {
@@ -93,7 +98,7 @@ export default {
     owner: 'MageeLin',
     repo: 'juejin-markdown-theme-geek-black',
     path: 'geek-black.scss',
-    ref: '7601c42',
+    ref: '888136c',
     highlight: 'monokai',
   },
   'awesome-green': {
@@ -102,4 +107,12 @@ export default {
     path: 'awesome-green.scss',
     ref: '5e8259b',
   },
+  'qklhk-chocolate': {
+    owner: 'QiaokeliHenku',
+    repo: 'juejin-markdown-theme-qkl',
+    path: 'chocolate.scss',
+    ref: '8bbb87d',
+  },
 };
+
+export default themes;
