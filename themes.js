@@ -117,7 +117,7 @@ const themes = {
     owner: 'viewweiwu',
     repo: 'juejin-markdown-theme-arknights',
     path: 'arknights.scss',
-    ref: 'd1ae376',
+    ref: '83e8179',
     highlight: 'atom-one-light',
   },
 };
