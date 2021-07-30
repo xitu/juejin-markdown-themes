@@ -41,7 +41,7 @@ const themes = {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: 'eeeb566',
+    ref: '65aefc5',
   },
   hydrogen: {
     owner: 'DawnLck',
