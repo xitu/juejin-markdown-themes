@@ -11,6 +11,13 @@ const themes = {
     ref: '195cbb0',
     highlight: 'juejin',
   },
+  ananananzhuo:{
+    owner: 'ymeddmn',
+    repo: 'juejin-markdown-theme-ananananzhuo',
+    path: 'ananananzhuo.scss',
+    ref: 'f8fa847',
+    highlight: 'androidstudio',
+  }
   github: {
     owner: 'sindresorhus',
     repo: 'github-markdown-css',
