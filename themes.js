@@ -113,6 +113,13 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  arknights: {
+    owner: 'viewweiwu',
+    repo: 'juejin-markdown-theme-arknights',
+    path: 'arknights.scss',
+    ref: '83e8179',
+    highlight: 'atom-one-light',
+  },
   'scrolls-light': {
     owner: 'daodaolee',
     repo: 'juejin-markdown-theme-scrolls',
