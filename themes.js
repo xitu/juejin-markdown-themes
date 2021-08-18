@@ -120,6 +120,13 @@ const themes = {
     ref: '83e8179',
     highlight: 'atom-one-light',
   },
+  menglan: {
+    owner: 'wuranxu',
+    repo: 'juejin-markdown-theme-menglan',
+    path: 'menglan.scss',
+    ref: '0529994',
+    highlight: 'atom-one-dark',
+  }
 };
 
 export default themes;
