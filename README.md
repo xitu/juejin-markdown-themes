@@ -13,7 +13,6 @@
 theme: juejin # Markdown 主题，默认值：juejin
 highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则默认为 juejin
 ---
-
 ```
 
 ### Markdown 主题
