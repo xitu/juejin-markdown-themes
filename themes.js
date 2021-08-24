@@ -54,7 +54,7 @@ const themes = {
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
     ref: 'a232641',
-    highlight: 'github-gist'
+    highlight: 'github-gist',
   },
   greenwillow: {
     owner: 'wangly19',
