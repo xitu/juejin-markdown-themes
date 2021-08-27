@@ -121,6 +121,13 @@ const themes = {
     path: 'arknights.scss',
     ref: 'c7285a1',
   },
+  vuepress: {
+    owner: 'promise96319',
+    repo: 'juejin-markdown-theme-vuepress',
+    path: 'vuepress.scss',
+    ref: 'af6f62a',
+    highlight: 'base16/tomorrow-night',
+  },
 };
 
 export default themes;
