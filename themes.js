@@ -114,6 +114,11 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'scrolls-light': {
+    owner: 'daodaolee',
+    repo: 'juejin-markdown-theme-scrolls',
+    path: 'scrolls.scss',
+    ref: 'cebc694',
   'simplicity-green': {
     owner: 'GuoJikun',
     repo: 'juejin-markdown-theme-simplicity-green',
