@@ -1,6 +1,6 @@
 {
   "name": "juejin-markdown-themes",
-  "version": "1.2.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "index.d.ts",
   "repository": "git@github.com:xitu/juejin-markdown-themes.git",
@@ -11,15 +11,37 @@
     "index.d.ts"
   ],
   "scripts": {
+    "lint": "npx prettier -l *.js *.md",
     "build": "rm -rf dist && node -r esm build.js",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "@rollup/plugin-virtual": "^2.0.3",
+    "bytemd": "^1.2.0",
     "cssnano": "^4.1.10",
     "esm": "^3.2.25",
     "fs-extra": "^9.0.1",
     "less": "^3.12.2",
+    "lodash": "^4.17.20",
     "node-fetch": "^2.6.1",
+    "postcss": "^8.2.2",
+    "rollup": "^2.36.1",
     "sass": "^1.27.0"
+  },
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "main",
+      "next",
+      "next-major",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ]
   }
 }

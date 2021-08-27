@@ -39,7 +39,13 @@ editor.on('change', (e) => {
 
 ## GFM Extended Syntax
 
+Automatic URL Linking: https://github.com/bytedance/bytemd
+
 ~~The world is flat.~~ We now know that the world is round.
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
 
 | Syntax    | Description |
 | --------- | ----------- |

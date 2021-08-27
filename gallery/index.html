@@ -9,7 +9,6 @@
     <script src="https://unpkg.com/bytemd"></script>
     <script src="https://unpkg.com/@bytemd/plugin-gfm"></script>
     <script src="https://unpkg.com/@bytemd/plugin-frontmatter"></script>
-    <script src="https://unpkg.com/@bytemd/plugin-inject-style"></script>
     <script src="https://unpkg.com/@bytemd/plugin-footnotes"></script>
     <script src="themes.js"></script>
     <style>
@@ -17,8 +16,8 @@
         margin: 0 auto;
         max-width: 1200px;
       }
-      .bytemd-body {
-        height: calc(100vh - 80px);
+      .bytemd {
+        height: calc(100vh - 40px);
       }
     </style>
   </head>
@@ -28,17 +27,21 @@
       const plugins = [
         bytemdPluginGfm(),
         bytemdPluginFrontmatter(),
-        bytemdPluginInjectStyle({
-          style(data) {
-            return themes[data.frontmatter?.theme] ?? themes.juejin;
-          },
-        }),
         bytemdPluginFootnotes(),
+        {
+          viewerEffect({ file }) {
+            const $style = document.createElement('style');
+            $style.innerHTML =
+              themes[file.frontmatter.theme]?.style ?? themes.juejin.style;
+            document.head.appendChild($style);
+            return () => {
+              $style.remove();
+            };
+          },
+        },
       ];
 
-      fetch(
-        'https://raw.githubusercontent.com/xitu/juejin-markdown-themes/main/gallery/example.md'
-      )
+      fetch('/example.md')
         .then((res) => res.text())
         .then((md) => {
           md = md.replace(
