@@ -53,7 +53,8 @@ const themes = {
     owner: 'Geekhyt',
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
-    ref: '4f50a4f',
+    ref: 'a232641',
+    highlight: 'github-gist',
   },
   greenwillow: {
     owner: 'wangly19',
@@ -113,18 +114,30 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
-  arknights: {
-    owner: 'viewweiwu',
-    repo: 'juejin-markdown-theme-arknights',
-    path: 'arknights.scss',
-    ref: '83e8179',
-    highlight: 'atom-one-light',
-  },
   'scrolls-light': {
     owner: 'daodaolee',
     repo: 'juejin-markdown-theme-scrolls',
     path: 'scrolls.scss',
     ref: 'cebc694',
+  'simplicity-green': {
+    owner: 'GuoJikun',
+    repo: 'juejin-markdown-theme-simplicity-green',
+    path: 'simplicity-green.scss',
+    ref: 'b9c06ed',
+  },
+  arknights: {
+    owner: 'viewweiwu',
+    repo: 'juejin-markdown-theme-arknights',
+    highlight: 'atom-one-light',
+    path: 'arknights.scss',
+    ref: 'c7285a1',
+  },
+  vuepress: {
+    owner: 'promise96319',
+    repo: 'juejin-markdown-theme-vuepress',
+    path: 'vuepress.scss',
+    ref: 'af6f62a',
+    highlight: 'base16/tomorrow-night',
   },
 };
 

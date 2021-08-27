@@ -13,7 +13,6 @@
 theme: juejin # Markdown 主题，默认值：juejin
 highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则默认为 juejin
 ---
-
 ```
 
 ### Markdown 主题
@@ -45,8 +44,10 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [jzman](https://github.com/jzmanu/juejin-markdown-theme-jzman) | [躬行之](https://juejin.cn/user/3526889030301325) | MIT |
 | [geek-black](https://github.com/MageeLin/juejin-markdown-theme-geek-black) | [林景宜](https://juejin.cn/user/404232342875966) | MIT |
 | [awesome-green](https://github.com/luffyZh/juejin-markdown-theme-awesome-green) | [luffyZh](https://juejin.cn/user/96412752681079) | MIT |
-| [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
 | [scrolls](https://github.com/daodaolee/juejin-markdown-theme-scrolls) | [道道里](https://juejin.cn/user/166781497122039) | MIT |
+| [simplicity-green](https://github.com/GuoJikun/juejin-markdown-theme-simplicity-green) | [Jason_Guo](https://juejin.cn/user/3878732751188845) | MIT |
+| [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
+| [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
 
 ### 代码高亮
 
