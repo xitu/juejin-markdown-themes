@@ -48,6 +48,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [simplicity-green](https://github.com/GuoJikun/juejin-markdown-theme-simplicity-green) | [Jason_Guo](https://juejin.cn/user/3878732751188845) | MIT |
 | [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
 | [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
+| [mervin-light](https://github.com/honest1y/juejin-markdown-theme-mervin-light) | [Honest1y](https://juejin.cn/user/694547081075149) | MIT |
 
 ### 代码高亮
 

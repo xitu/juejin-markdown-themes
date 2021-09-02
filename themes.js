@@ -140,6 +140,13 @@ const themes = {
     ref: 'af6f62a',
     highlight: 'base16/tomorrow-night',
   },
+  'mervin-light': {
+    owner: 'promise96319',
+    repo: 'juejin-markdown-theme-mervin-light',
+    path: 'mervin-light.scss',
+    ref: 'b269e8e',
+    highlight: 'xcode',
+  },
 };
 
 export default themes;
