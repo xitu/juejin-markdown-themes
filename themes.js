@@ -144,7 +144,8 @@ const themes = {
     owner: 'Mancuoj',
     repo: 'juejin-markdown-theme-Chinese-red',
     path: 'Chinese-red.scss',
-    ref: '21003ae',
+    ref: '6bd79fa',
+    highlight: 'xcode',
   }
 };
 
