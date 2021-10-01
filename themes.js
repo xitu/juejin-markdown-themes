@@ -140,6 +140,12 @@ const themes = {
     ref: 'af6f62a',
     highlight: 'base16/tomorrow-night',
   },
+  'Chinese-red': {
+    owner: 'Mancuoj',
+    repo: 'juejin-markdown-theme-Chinese-red',
+    path: 'Chinese-red.scss',
+    ref: '21003ae',
+  }
 };
 
 export default themes;
