@@ -146,6 +146,12 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
+  },
+  maidragon: {
+    owner: 'iota9star',
+    repo: 'juejin-markdown-theme-maidragon',
+    path: 'maidragon.scss',
+    ref: '10d038a'
   }
 };
 
