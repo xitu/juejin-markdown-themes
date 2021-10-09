@@ -10,6 +10,7 @@
     "dist",
     "index.d.ts"
   ],
+  "unpkg": true,
   "scripts": {
     "lint": "npx prettier -l *.js *.md",
     "build": "rm -rf dist && node -r esm build.js",
