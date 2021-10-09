@@ -146,7 +146,7 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
-  }
+  },
 };
 
 export default themes;
