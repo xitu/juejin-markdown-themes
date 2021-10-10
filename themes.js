@@ -150,8 +150,8 @@ const themes = {
   maidragon: {
     owner: 'iota9star',
     repo: 'juejin-markdown-theme-maidragon',
-    path: 'maidragon.css',
-    ref: '7cef171'
+    path: 'maidragon.scss',
+    ref: 'a8fc12c'
   }
 };
 
