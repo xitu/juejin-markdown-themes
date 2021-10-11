@@ -148,7 +148,7 @@ const themes = {
     highlight: 'xcode',
   },
   'mervin-light': {
-    owner: 'Mancuoj',
+    owner: 'Honesty',
     repo: 'juejin-markdown-theme-mervin-light',
     path: 'mervin-light.scss',
     ref: '2ef8e85',
