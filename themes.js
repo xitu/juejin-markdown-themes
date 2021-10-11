@@ -151,7 +151,7 @@ const themes = {
     owner: 'iota9star',
     repo: 'juejin-markdown-theme-maidragon',
     path: 'maidragon.scss',
-    ref: '4bc693b'
+    ref: '7afd9f8'
   }
 };
 
