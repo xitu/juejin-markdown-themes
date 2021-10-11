@@ -140,13 +140,19 @@ const themes = {
     ref: 'af6f62a',
     highlight: 'base16/tomorrow-night',
   },
+  'Chinese-red': {
+    owner: 'Mancuoj',
+    repo: 'juejin-markdown-theme-Chinese-red',
+    path: 'Chinese-red.scss',
+    ref: 'ac8c9e5',
+    highlight: 'xcode',
+  },
   'mervin-light': {
     owner: 'promise96319',
     repo: 'juejin-markdown-theme-mervin-light',
     path: 'mervin-light.scss',
     ref: 'b269e8e',
-    highlight: 'xcode',
-  },
+   },
 };
 
 export default themes;

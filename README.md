@@ -49,6 +49,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
 | [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
 | [mervin-light](https://github.com/honest1y/juejin-markdown-theme-mervin-light) | [Honest1y](https://juejin.cn/user/694547081075149) | MIT |
+| [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
 
 ### 代码高亮
 
@@ -64,7 +65,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 3. 使用[主题开发工具](https://github.com/linxsbox/juejin-theme-devtool)在本地预览主题效果
 4. Fork 此仓库并克隆到本地，在 `themes.js` 文件中指明样式文件的路径，`ref` 为 commit hash，`highlight` 为默认的代码高亮主题（可选）
 5. 在 `README.md` 中「社区主题」章节中添加你的主题和作者信息
-6. 提交 pull request
+6. 提交 pull request (注意：commit信息要使用'feat: '和'fix: '形式，否则无法触发自动化发布流程)
 
 ## License
 
