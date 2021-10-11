@@ -147,6 +147,13 @@ const themes = {
     ref: 'ac8c9e5',
     highlight: 'xcode',
   },
+  'mervin-light': {
+    owner: 'Mancuoj',
+    repo: 'juejin-markdown-theme-mervin-light',
+    path: 'mervin-light.scss',
+    ref: '2ef8e85',
+    highlight: 'atom-one-dark',
+  },
 };
 
 export default themes;
