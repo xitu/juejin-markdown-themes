@@ -125,6 +125,7 @@ const themes = {
     repo: 'juejin-markdown-theme-scrolls',
     path: 'scrolls.scss',
     ref: 'cebc694',
+  },
   'simplicity-green': {
     owner: 'GuoJikun',
     repo: 'juejin-markdown-theme-simplicity-green',
