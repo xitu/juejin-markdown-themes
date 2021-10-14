@@ -147,6 +147,13 @@ const themes = {
     ref: 'ac8c9e5',
     highlight: 'xcode',
   },
+  'hello-world': {
+    owner: 'fuusy',
+    repo: 'juejin-markdown-theme-hello-world',
+    path: 'juejin.scss',
+    ref: 'e2ed60a',
+    highlight: 'github dark',
+  },
 };
 
 export default themes;
