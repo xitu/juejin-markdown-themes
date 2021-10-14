@@ -118,7 +118,8 @@ const themes = {
     owner: 'RudeCrab',
     repo: 'juejin-markdown-theme-rude-crab',
     path: 'rude-crab.scss',
-    ref: 'a99510c',
+    ref: '2a4524b',
+    highlight: 'atom-one-light',
   },
   'scrolls-light': {
     owner: 'daodaolee',
