@@ -1,9 +1,14 @@
-export default {
+// @ts-check
+
+/**
+ * @type {Record<string, {owner:string,repo:string,path:string,ref:string,highlight?:string}>}
+ */
+const themes = {
   juejin: {
     owner: 'xitu',
     repo: 'juejin-markdown-theme-default',
     path: 'juejin.scss',
-    ref: '3d8618e',
+    ref: '195cbb0',
     highlight: 'juejin',
   },
   github: {
@@ -48,7 +53,8 @@ export default {
     owner: 'Geekhyt',
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
-    ref: '4f50a4f',
+    ref: 'a232641',
+    highlight: 'github-gist',
   },
   greenwillow: {
     owner: 'wangly19',
@@ -108,4 +114,39 @@ export default {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'scrolls-light': {
+    owner: 'daodaolee',
+    repo: 'juejin-markdown-theme-scrolls',
+    path: 'scrolls.scss',
+    ref: 'cebc694',
+  },
+  'simplicity-green': {
+    owner: 'GuoJikun',
+    repo: 'juejin-markdown-theme-simplicity-green',
+    path: 'simplicity-green.scss',
+    ref: 'b9c06ed',
+  },
+  arknights: {
+    owner: 'viewweiwu',
+    repo: 'juejin-markdown-theme-arknights',
+    highlight: 'atom-one-light',
+    path: 'arknights.scss',
+    ref: 'c7285a1',
+  },
+  vuepress: {
+    owner: 'promise96319',
+    repo: 'juejin-markdown-theme-vuepress',
+    path: 'vuepress.scss',
+    ref: 'af6f62a',
+    highlight: 'base16/tomorrow-night',
+  },
+  'Chinese-red': {
+    owner: 'Mancuoj',
+    repo: 'juejin-markdown-theme-Chinese-red',
+    path: 'Chinese-red.scss',
+    ref: 'ac8c9e5',
+    highlight: 'xcode',
+  },
 };
+
+export default themes;
