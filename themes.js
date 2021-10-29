@@ -114,6 +114,13 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
+  'orange': {
+    owner: 'RudeCrab',
+    repo: 'juejin-markdown-theme-rude-crab',
+    path: 'rude-crab.scss',
+    ref: '2a4524b',
+    highlight: 'atom-one-light',
+  },
   'scrolls-light': {
     owner: 'daodaolee',
     repo: 'juejin-markdown-theme-scrolls',
