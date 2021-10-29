@@ -131,7 +131,7 @@ const themes = {
     owner: 'GuoJikun',
     repo: 'juejin-markdown-theme-simplicity-green',
     path: 'simplicity-green.scss',
-    ref: 'b9c06ed',
+    ref: '47cb3fe',
   },
   arknights: {
     owner: 'viewweiwu',
