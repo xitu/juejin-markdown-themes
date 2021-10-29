@@ -41,7 +41,7 @@ const themes = {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: 'eeeb566',
+    ref: '65aefc5',
   },
   hydrogen: {
     owner: 'DawnLck',
@@ -106,13 +106,20 @@ const themes = {
     owner: 'luffyZh',
     repo: 'juejin-markdown-theme-awesome-green',
     path: 'awesome-green.scss',
-    ref: '5e8259b',
+    ref: 'fc93130',
   },
   'qklhk-chocolate': {
     owner: 'QiaokeliHenku',
     repo: 'juejin-markdown-theme-qkl',
     path: 'chocolate.scss',
     ref: '8bbb87d',
+  },
+  'orange': {
+    owner: 'RudeCrab',
+    repo: 'juejin-markdown-theme-rude-crab',
+    path: 'rude-crab.scss',
+    ref: '2a4524b',
+    highlight: 'atom-one-light',
   },
   'scrolls-light': {
     owner: 'daodaolee',
@@ -124,14 +131,14 @@ const themes = {
     owner: 'GuoJikun',
     repo: 'juejin-markdown-theme-simplicity-green',
     path: 'simplicity-green.scss',
-    ref: 'b9c06ed',
+    ref: '47cb3fe',
   },
   arknights: {
     owner: 'viewweiwu',
     repo: 'juejin-markdown-theme-arknights',
     highlight: 'atom-one-light',
     path: 'arknights.scss',
-    ref: 'c7285a1',
+    ref: '83e8179',
   },
   vuepress: {
     owner: 'promise96319',
@@ -144,7 +151,7 @@ const themes = {
     owner: 'Mancuoj',
     repo: 'juejin-markdown-theme-Chinese-red',
     path: 'Chinese-red.scss',
-    ref: '6da886e',
+    ref: 'ac8c9e5',
     highlight: 'xcode',
   },
 };
