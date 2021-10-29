@@ -41,7 +41,7 @@ const themes = {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: 'eeeb566',
+    ref: '65aefc5',
   },
   hydrogen: {
     owner: 'DawnLck',
@@ -138,7 +138,7 @@ const themes = {
     repo: 'juejin-markdown-theme-arknights',
     highlight: 'atom-one-light',
     path: 'arknights.scss',
-    ref: 'c7285a1',
+    ref: '83e8179',
   },
   vuepress: {
     owner: 'promise96319',
