@@ -154,6 +154,13 @@ const themes = {
     ref: 'ac8c9e5',
     highlight: 'xcode',
   },
+  'vue-laomst': {
+    owner: 'laomst',
+    repo: 'juejin-theme-vue-laomst',
+    path: 'vue-laomst.css',
+    ref: '4cf14c589cca0c12d131ecefe87cb12fbdb749e2',
+    highlight: 'base16/darcula.css',
+  },
 };
 
 export default themes;
