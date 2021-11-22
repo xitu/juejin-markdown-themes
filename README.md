@@ -50,6 +50,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
 | [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
 | [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
+| [maidragon](https://github.com/iota9star/juejin-markdown-theme-maidragon) | [尽管如此世界依然美丽](https://juejin.cn/user/1591748568562829) | MIT |
 
 ### 代码高亮
 

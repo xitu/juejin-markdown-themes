@@ -154,6 +154,12 @@ const themes = {
     ref: 'ac8c9e5',
     highlight: 'xcode',
   },
+  maidragon: {
+    owner: 'iota9star',
+    repo: 'juejin-markdown-theme-maidragon',
+    path: 'maidragon.scss',
+    ref: '3021180'
+  }
 };
 
 export default themes;
