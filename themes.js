@@ -158,7 +158,8 @@ const themes = {
     owner: 'iota9star',
     repo: 'juejin-markdown-theme-maidragon',
     path: 'maidragon.scss',
-    ref: '3021180'
+    highlight: 'tomorrow-night-blue',
+    ref: 'b98ae7a',
   }
 };
 
