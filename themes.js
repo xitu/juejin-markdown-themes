@@ -159,7 +159,7 @@ const themes = {
     repo: 'juejin-markdown-theme-maidragon',
     path: 'maidragon.scss',
     highlight: 'tomorrow-night-blue',
-    ref: 'b98ae7a',
+    ref: '68bd313',
   }
 };
 
