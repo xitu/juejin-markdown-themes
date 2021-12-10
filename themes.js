@@ -153,7 +153,13 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
-  }
+  },
+  'bamboo': {
+    owner: 'wangenze267',
+    repo: 'juejin-markdown-theme-bamboo',
+    path: 'bamboo.scss',
+    ref: '6fdd1ae',
+  },
 };
 
 export default themes;

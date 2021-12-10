@@ -50,6 +50,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
 | [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
 | [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
+| [bamboo](https://github.com/wangenze267/juejin-markdown-theme-bamboo) | [Ned](https://juejin.cn/user/105972016875911) | MIT |
 
 ### 代码高亮
 
@@ -71,7 +72,6 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 9. 注意考虑样式的稳定性和兼容性
 10. **并非所有 PR 的主题都会入选，挑选和审核会有一定周期**
 
-
 ### ① themes.js 格式说明
 
 ```js
@@ -87,9 +87,9 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 ## License
 
 ## 联系官方
+
 微信：zwcatfly 或者微信： chnyifan
 
 ![middle_img_v2_76ee7552-1a63-41df-900d-5fbefe5a69ag](https://user-images.githubusercontent.com/8282645/139875601-f0f3477d-a03a-4acf-ac8d-7204d4f5bc04.jpg)
-
 
 MIT
