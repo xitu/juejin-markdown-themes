@@ -153,6 +153,12 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
+  },
+  'bamboo': {
+    owner: 'Ned',
+    repo: 'juejin-markdown-theme-bamboo',
+    path: 'bamboo.scss',
+    ref: '54d8ba0',
   }
 };
 
