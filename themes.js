@@ -158,7 +158,7 @@ const themes = {
     owner: 'Ned',
     repo: 'juejin-markdown-theme-bamboo',
     path: 'bamboo.scss',
-    ref: '54d8ba0',
+    ref: '6fdd1ae',
   }
 };
 
