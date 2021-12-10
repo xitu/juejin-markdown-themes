@@ -155,7 +155,7 @@ const themes = {
     highlight: 'xcode',
   },
   'bamboo': {
-    owner: 'Ned',
+    owner: 'wangenze267',
     repo: 'juejin-markdown-theme-bamboo',
     path: 'bamboo.scss',
     ref: '6fdd1ae',
