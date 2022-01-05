@@ -153,6 +153,13 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
+  },
+  'pink': {
+    owner: 'jCodeLife',
+    repo: 'juejin-markdown-theme-pink',
+    path: 'pink.scss',
+    ref: '741a269',
+    highlight: 'atom-one-dark',
   }
 };
 
