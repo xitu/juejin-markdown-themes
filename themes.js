@@ -114,7 +114,7 @@ const themes = {
     path: 'chocolate.scss',
     ref: '8bbb87d',
   },
-  'orange': {
+  orange: {
     owner: 'RudeCrab',
     repo: 'juejin-markdown-theme-rude-crab',
     path: 'rude-crab.scss',
@@ -153,7 +153,14 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
-  }
+  },
+  'happy-new-year': {
+    owner: 'oil-oil',
+    repo: 'juejin-markdown-theme-happy-new-year',
+    path: 'happy-new-year.scss',
+    ref: '8a4f4aa',
+    highlight: 'a11y-light',
+  },
 };
 
 export default themes;
