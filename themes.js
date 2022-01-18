@@ -153,6 +153,13 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
+  },
+  'mervin-light': {
+    owner: 'Honest1y',
+    repo: 'juejin-markdown-theme-mervin-light',
+    path: 'mervin-light.scss',
+    ref: '2ef8e85',
+    highlight: 'atom-one-dark',
   }
 };
 
