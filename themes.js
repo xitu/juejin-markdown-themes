@@ -153,7 +153,13 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
-  }
+  },
+  'devui-blue': {
+    owner: 'kagol',
+    repo: 'juejin-markdown-theme-devui-blue',
+    path: 'devui-blue.scss',
+    ref: '127cfeb',
+  },
 };
 
 export default themes;
