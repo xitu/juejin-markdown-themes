@@ -153,7 +153,14 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
-  }
+  },
+  'nico':{
+    owner:"blllld",
+    repo:"juejin-markdown-theme-nico",
+    path:"nico.scss",
+    ref:'8177657',
+    highlight:'atelier-sulphurpool-light'
+  },
 };
 
 export default themes;

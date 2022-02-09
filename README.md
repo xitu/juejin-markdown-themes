@@ -50,6 +50,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
 | [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
 | [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
+| [nico](https://github.com/blllld/juejin-markdown-theme-nico) | [非思不可](https://juejin.cn/user/553809588523405) | MIT |
 
 ### 代码高亮
 
