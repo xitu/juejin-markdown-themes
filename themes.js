@@ -151,7 +151,7 @@ const themes = {
     owner: 'Mancuoj',
     repo: 'juejin-markdown-theme-Chinese-red',
     path: 'Chinese-red.scss',
-    ref: 'ac8c9e5',
+    ref: '6da886e',
     highlight: 'xcode',
   },
   'devui-blue': {
@@ -159,6 +159,12 @@ const themes = {
     repo: 'juejin-markdown-theme-devui-blue',
     path: 'devui-blue.scss',
     ref: '127cfeb',
+  },
+  'yayoi-sakura': {
+    owner: 'Yayoiqz',
+    repo: 'juejin-markdown-theme-yayoi-sakura',
+    path: 'yayoi-sakura.scss',
+    ref: '35c44ac',
   },
 };
 
