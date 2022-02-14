@@ -154,6 +154,12 @@ const themes = {
     ref: '6da886e',
     highlight: 'xcode',
   },
+  'devui-blue': {
+    owner: 'kagol',
+    repo: 'juejin-markdown-theme-devui-blue',
+    path: 'devui-blue.scss',
+    ref: '127cfeb',
+  },
   'yayoi-sakura': {
     owner: 'Yayoiqz',
     repo: 'juejin-markdown-theme-yayoi-sakura',
