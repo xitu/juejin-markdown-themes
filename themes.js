@@ -154,6 +154,13 @@ const themes = {
     ref: '6da886e',
     highlight: 'xcode',
   },
+  'nico':{
+    owner:"blllld",
+    repo:"juejin-markdown-theme-nico",
+    path:"nico.scss",
+    ref:'8177657',
+    highlight:'atelier-sulphurpool-light'
+  },
   'devui-blue': {
     owner: 'kagol',
     repo: 'juejin-markdown-theme-devui-blue',
