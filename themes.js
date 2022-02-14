@@ -151,7 +151,7 @@ const themes = {
     owner: 'Mancuoj',
     repo: 'juejin-markdown-theme-Chinese-red',
     path: 'Chinese-red.scss',
-    ref: 'ac8c9e5',
+    ref: '6da886e',
     highlight: 'xcode',
   },
   'yayoi-sakura': {
