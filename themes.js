@@ -153,7 +153,13 @@ const themes = {
     path: 'Chinese-red.scss',
     ref: 'ac8c9e5',
     highlight: 'xcode',
-  }
+  },
+  'yayoi-sakura': {
+    owner: 'Yayoiqz',
+    repo: 'juejin-markdown-theme-yayoi-sakura',
+    path: 'yayoi-sakura.scss',
+    ref: '35c44ac',
+  },
 };
 
 export default themes;
