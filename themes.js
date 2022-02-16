@@ -47,7 +47,7 @@ const themes = {
     owner: 'DawnLck',
     repo: 'juejin-markdown-theme-hydrogen',
     path: 'hydrogen.scss',
-    ref: 'b3f86fb',
+    ref: '3562902',
   },
   'condensed-night-purple': {
     owner: 'Geekhyt',
