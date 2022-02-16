@@ -1,10 +1,16 @@
+// @ts-check
 import fs from 'fs-extra';
 import fetch from 'node-fetch';
 import path from 'path';
 import sass from 'sass';
 import less from 'less';
 import cssnano from 'cssnano';
+import postcss from 'postcss';
+import { rollup } from 'rollup';
+import virtual from '@rollup/plugin-virtual';
+import _ from 'lodash';
 import themes from './themes';
+import pkg from './package.json';
 
 const sassHandler = (input) => {
   const result = sass.renderSync({ data: input });
@@ -24,38 +30,104 @@ const handlerMap = {
 };
 
 (async function main() {
-  const result = {};
-
   fs.ensureDirSync(path.resolve(__dirname, 'dist'));
 
+  const result = {};
+  let lazyCode = 'module.exports={';
+
   for (let [key, p] of Object.entries(themes)) {
+    console.log(key, 'start');
+
     const code = await fetch(
       `https://raw.githubusercontent.com/${p.owner}/${p.repo}/${p.ref}/${p.path}`
-    ).then((res) => res.text());
+    ).then((res) => res.text())
+    .catch(() => {
+      throw new Error(
+        'Oops! themes.js format is wrong, ' +
+        'please refer to this link for corrections: ' +
+        'https://github.com/xitu/juejin-markdown-themes#-themesjs-%E6%A0%BC%E5%BC%8F%E8%AF%B4%E6%98%8E.'
+      );
+    });
 
     const ext = path.extname(p.path).slice(1);
     const css = await handlerMap[ext](code);
-    const { css: minifedCss } = await cssnano.process(css);
+
+    // check external url
+    await postcss()
+      .process(css)
+      .then((res) => {
+        res.root.walk((node) => {
+          if (
+            node.type === 'decl' &&
+            /url\(['"]?(https?:)?\/\//.test(node.value)
+          ) {
+            throw new Error('External URL is not allowed');
+          }
+
+          if (
+            node.type === 'rule' &&
+            node.selectors.some((s) => {
+              return !s.startsWith('.markdown-body');
+            }) &&
+            node.parent.name !== 'keyframes' // allow keyframes
+          ) {
+            throw new Error('Style must be wrapped with .markdown-body');
+          }
+        });
+      });
+
+    const { css: minCss } = await cssnano.process(css);
 
     // write css
-    fs.writeFileSync(path.resolve(__dirname, 'dist', key + '.css'), minifedCss);
+    fs.writeFileSync(path.resolve(__dirname, 'dist', key + '.css'), css);
+    fs.writeFileSync(path.resolve(__dirname, 'dist', key + '.min.css'), minCss);
 
     result[key] = {
-      style: minifedCss,
+      style: minCss,
       highlight: p.highlight,
     };
-  }
 
-  // write json
+    fs.writeFileSync(
+      path.resolve(__dirname, 'dist', `${key}.js`),
+      `module.exports=${JSON.stringify(minCss)}`
+    );
+    lazyCode += `'${key}':{ highlight: ${JSON.stringify(
+      p.highlight
+    )}, style: () => import('./${key}') },`;
+
+    console.log(key, 'end');
+  }
+  lazyCode += '}';
+
+  // write index.json
   fs.writeJsonSync(path.resolve(__dirname, 'dist/index.json'), result);
-  // write js
-  fs.writeFileSync(
-    path.resolve(__dirname, 'dist/index.js'),
-    'module.exports=' + JSON.stringify(result, null, 2)
-  );
+
+  // write index.js
+  const build = await rollup({
+    input: pkg.name,
+    plugins: [
+      virtual({
+        [pkg.name]: 'export default ' + JSON.stringify(result, null, 2),
+      }),
+    ],
+  });
+  await build.write({
+    format: 'umd',
+    name: _.camelCase(pkg.name),
+    file: path.resolve(__dirname, 'dist/index.js'),
+  });
+
+  // write lazy.js
+  fs.writeFileSync(path.resolve(__dirname, 'dist/lazy.js'), lazyCode);
+
   // gallery
   fs.writeFileSync(
     path.resolve(__dirname, 'gallery/themes.js'),
     'window.themes=' + JSON.stringify(result)
   );
 })();
+
+process.on('unhandledRejection', (error) => {
+  console.error('unhandledRejection', error);
+  process.exit(1);
+});
