@@ -165,7 +165,7 @@ const themes = {
     owner: 'kagol',
     repo: 'juejin-markdown-theme-devui-blue',
     path: 'devui-blue.scss',
-    ref: '18dd626',
+    ref: 'bb59b1b',
   },
 };
 
