@@ -144,8 +144,8 @@ const themes = {
     owner: 'promise96319',
     repo: 'juejin-markdown-theme-vuepress',
     path: 'vuepress.scss',
-    ref: 'af6f62a',
-    highlight: 'base16/tomorrow-night',
+    ref: 'cc771b5',
+    highlight: 'atom-one-dark',
   },
   'Chinese-red': {
     owner: 'Mancuoj',
