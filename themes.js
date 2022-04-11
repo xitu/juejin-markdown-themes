@@ -158,7 +158,7 @@ const themes = {
     owner:"blllld",
     repo:"juejin-markdown-theme-nico",
     path:"nico.scss",
-    ref:'8177657',
+    ref:'86030ac',
     highlight:'atelier-sulphurpool-light'
   },
 };
