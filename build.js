@@ -40,7 +40,14 @@ const handlerMap = {
 
     const code = await fetch(
       `https://raw.githubusercontent.com/${p.owner}/${p.repo}/${p.ref}/${p.path}`
-    ).then((res) => res.text());
+    ).then((res) => res.text())
+    .catch(() => {
+      throw new Error(
+        'Oops! themes.js format is wrong, ' +
+        'please refer to this link for corrections: ' +
+        'https://github.com/xitu/juejin-markdown-themes#-themesjs-%E6%A0%BC%E5%BC%8F%E8%AF%B4%E6%98%8E.'
+      );
+    });
 
     const ext = path.extname(p.path).slice(1);
     const css = await handlerMap[ext](code);

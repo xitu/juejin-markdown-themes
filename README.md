@@ -44,11 +44,14 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [jzman](https://github.com/jzmanu/juejin-markdown-theme-jzman) | [躬行之](https://juejin.cn/user/3526889030301325) | MIT |
 | [geek-black](https://github.com/MageeLin/juejin-markdown-theme-geek-black) | [林景宜](https://juejin.cn/user/404232342875966) | MIT |
 | [awesome-green](https://github.com/luffyZh/juejin-markdown-theme-awesome-green) | [luffyZh](https://juejin.cn/user/96412752681079) | MIT |
+| [orange](https://github.com/RudeCrab/juejin-markdown-theme-rude-crab) | [RudeCrab](https://juejin.cn/user/2541726616796878) | MIT |
 | [scrolls](https://github.com/daodaolee/juejin-markdown-theme-scrolls) | [道道里](https://juejin.cn/user/166781497122039) | MIT |
 | [simplicity-green](https://github.com/GuoJikun/juejin-markdown-theme-simplicity-green) | [Jason_Guo](https://juejin.cn/user/3878732751188845) | MIT |
 | [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
 | [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
 | [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
+| [nico](https://github.com/blllld/juejin-markdown-theme-nico) | [非思不可](https://juejin.cn/user/553809588523405) | MIT |
+| [devui-blue](https://github.com/kagol/juejin-markdown-theme-devui-blue) | [DevUI团队](https://juejin.cn/user/712139267650141) | MIT |
 
 ### 代码高亮
 
@@ -84,5 +87,11 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 ```
 
 ## License
+
+## 联系官方
+微信：zwcatfly 或者微信： chnyifan
+
+![middle_img_v2_76ee7552-1a63-41df-900d-5fbefe5a69ag](https://user-images.githubusercontent.com/8282645/139875601-f0f3477d-a03a-4acf-ac8d-7204d4f5bc04.jpg)
+
 
 MIT
