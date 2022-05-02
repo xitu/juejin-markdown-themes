@@ -28,7 +28,7 @@ const themes = {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: '6b814ea',
+    ref: '044b052',
     highlight: 'atom-one-dark',
   },
   'channing-cyan': {
