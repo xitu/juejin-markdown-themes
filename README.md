@@ -52,7 +52,6 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
 | [nico](https://github.com/blllld/juejin-markdown-theme-nico) | [非思不可](https://juejin.cn/user/553809588523405) | MIT |
 | [devui-blue](https://github.com/kagol/juejin-markdown-theme-devui-blue) | [DevUI团队](https://juejin.cn/user/712139267650141) | MIT |
-| [yayoi-sakura](https://github.com/Yayoiqz/juejin-markdown-theme-yayoi-sakura) | [Yayoiqz](https://juejin.cn/user/1626932940390279) | MIT |
 
 ### 代码高亮
 

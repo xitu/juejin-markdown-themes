@@ -28,7 +28,7 @@ const themes = {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: '6b814ea',
+    ref: '044b052',
     highlight: 'atom-one-dark',
   },
   'channing-cyan': {
@@ -165,13 +165,7 @@ const themes = {
     owner: 'kagol',
     repo: 'juejin-markdown-theme-devui-blue',
     path: 'devui-blue.scss',
-    ref: '127cfeb',
-  },
-  'yayoi-sakura': {
-    owner: 'Yayoiqz',
-    repo: 'juejin-markdown-theme-yayoi-sakura',
-    path: 'yayoi-sakura.scss',
-    ref: '35c44ac',
+    ref: '2caac0c',
   },
 };
 
