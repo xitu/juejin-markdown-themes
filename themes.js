@@ -28,7 +28,7 @@ const themes = {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: '6b814ea',
+    ref: '044b052',
     highlight: 'atom-one-dark',
   },
   'channing-cyan': {
@@ -151,7 +151,7 @@ const themes = {
     owner: 'Mancuoj',
     repo: 'juejin-markdown-theme-Chinese-red',
     path: 'Chinese-red.scss',
-    ref: 'ac8c9e5',
+    ref: '6da886e',
     highlight: 'xcode',
   },
   'happy-new-year': {
@@ -160,6 +160,18 @@ const themes = {
     path: 'happy-new-year.scss',
     ref: '8a4f4aa',
     highlight: 'a11y-light',
+  'nico':{
+    owner:"blllld",
+    repo:"juejin-markdown-theme-nico",
+    path:"nico.scss",
+    ref:'8177657',
+    highlight:'atelier-sulphurpool-light'
+  },
+  'devui-blue': {
+    owner: 'kagol',
+    repo: 'juejin-markdown-theme-devui-blue',
+    path: 'devui-blue.scss',
+    ref: '2caac0c',
   },
 };
 
