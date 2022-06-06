@@ -158,7 +158,7 @@ const themes = {
     owner:"blllld",
     repo:"juejin-markdown-theme-nico",
     path:"nico.scss",
-    ref:'86030ac',
+    ref:'46326a0',
     highlight:'atelier-sulphurpool-light'
   },
   'devui-blue': {
