@@ -13,7 +13,6 @@
 theme: juejin # Markdown 主题，默认值：juejin
 highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则默认为 juejin
 ---
-
 ```
 
 ### Markdown 主题
@@ -45,6 +44,14 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [jzman](https://github.com/jzmanu/juejin-markdown-theme-jzman) | [躬行之](https://juejin.cn/user/3526889030301325) | MIT |
 | [geek-black](https://github.com/MageeLin/juejin-markdown-theme-geek-black) | [林景宜](https://juejin.cn/user/404232342875966) | MIT |
 | [awesome-green](https://github.com/luffyZh/juejin-markdown-theme-awesome-green) | [luffyZh](https://juejin.cn/user/96412752681079) | MIT |
+| [orange](https://github.com/RudeCrab/juejin-markdown-theme-rude-crab) | [RudeCrab](https://juejin.cn/user/2541726616796878) | MIT |
+| [scrolls](https://github.com/daodaolee/juejin-markdown-theme-scrolls) | [道道里](https://juejin.cn/user/166781497122039) | MIT |
+| [simplicity-green](https://github.com/GuoJikun/juejin-markdown-theme-simplicity-green) | [Jason_Guo](https://juejin.cn/user/3878732751188845) | MIT |
+| [arknights](https://github.com/viewweiwu/juejin-markdown-theme-arknights) | [viewweiwu](https://juejin.cn/user/712139263452503) | MIT |
+| [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
+| [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
+| [nico](https://github.com/blllld/juejin-markdown-theme-nico) | [非思不可](https://juejin.cn/user/553809588523405) | MIT |
+| [devui-blue](https://github.com/kagol/juejin-markdown-theme-devui-blue) | [DevUI团队](https://juejin.cn/user/712139267650141) | MIT |
 
 ### 代码高亮
 
@@ -58,10 +65,33 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 1. 使用[默认模板](https://github.com/xitu/juejin-markdown-theme-default)创建一个公开的仓库（点击绿色的 Use this template 按钮）
 2. 将其中的 `juejin.scss` 替换为自己创作的样式，目前支持 Sass，Less 和 CSS
 3. 使用[主题开发工具](https://github.com/linxsbox/juejin-theme-devtool)在本地预览主题效果
-4. Fork 此仓库并克隆到本地，在 `themes.js` 文件中指明样式文件的路径，`ref` 为 commit hash，`highlight` 为默认的代码高亮主题（可选）
+4. Fork 此仓库并克隆到本地，在 `themes.js` 文件中指明样式文件的路径，`ref` 为 commit hash，`highlight` 为默认的代码高亮主题（可选）①
 5. 在 `README.md` 中「社区主题」章节中添加你的主题和作者信息
-6. 提交 pull request
+6. 提交 pull request (注意：commit 信息要使用 'feat: ' 和 'fix: ' 形式，否则无法触发自动化发布流程)
+7. 提交 PR 前请 rebase，确保 commit 记录的整洁
+8. 如果是修复样式 bug，请在 PR 中给出明确的描述信息
+9. 注意考虑样式的稳定性和兼容性
+10. **并非所有 PR 的主题都会入选，挑选和审核会有一定周期**
+
+
+### ① themes.js 格式说明
+
+```js
+  cyanosis: { // 主题名称
+    owner: 'linxsbox', // 作者 github 用户名
+    repo: 'juejin-markdown-theme-cyanosis', // 主题仓库名
+    path: 'cyanosis.scss', // 主题文件 - 与主题同名
+    ref: '6b814ea', // commit hash
+    highlight: 'atom-one-dark', // 代码高亮样式名 - 默认 juejin
+  }, // 注意格式别忘了逗号
+```
 
 ## License
+
+## 联系官方
+微信：zwcatfly 或者微信： chnyifan
+
+![middle_img_v2_76ee7552-1a63-41df-900d-5fbefe5a69ag](https://user-images.githubusercontent.com/8282645/139875601-f0f3477d-a03a-4acf-ac8d-7204d4f5bc04.jpg)
+
 
 MIT

@@ -8,7 +8,7 @@ const themes = {
     owner: 'xitu',
     repo: 'juejin-markdown-theme-default',
     path: 'juejin.scss',
-    ref: '195cbb0',
+    ref: '91e8b31',
     highlight: 'juejin',
   },
   github: {
@@ -28,7 +28,7 @@ const themes = {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: '6b814ea',
+    ref: '044b052',
     highlight: 'atom-one-dark',
   },
   'channing-cyan': {
@@ -41,7 +41,7 @@ const themes = {
     owner: 'xrr2016',
     repo: 'juejin-markdown-theme-fancy',
     path: 'fancy.scss',
-    ref: 'eeeb566',
+    ref: '65aefc5',
   },
   hydrogen: {
     owner: 'DawnLck',
@@ -53,7 +53,8 @@ const themes = {
     owner: 'Geekhyt',
     repo: 'condensed-night-purple',
     path: 'condensed-night-purple.scss',
-    ref: '4f50a4f',
+    ref: 'a232641',
+    highlight: 'github-gist',
   },
   greenwillow: {
     owner: 'wangly19',
@@ -112,6 +113,59 @@ const themes = {
     repo: 'juejin-markdown-theme-qkl',
     path: 'chocolate.scss',
     ref: '8bbb87d',
+  },
+  'orange': {
+    owner: 'RudeCrab',
+    repo: 'juejin-markdown-theme-rude-crab',
+    path: 'rude-crab.scss',
+    ref: '2a4524b',
+    highlight: 'atom-one-light',
+  },
+  'scrolls-light': {
+    owner: 'daodaolee',
+    repo: 'juejin-markdown-theme-scrolls',
+    path: 'scrolls.scss',
+    ref: 'cebc694',
+  },
+  'simplicity-green': {
+    owner: 'GuoJikun',
+    repo: 'juejin-markdown-theme-simplicity-green',
+    path: 'simplicity-green.scss',
+    ref: '47cb3fe',
+  },
+  arknights: {
+    owner: 'viewweiwu',
+    repo: 'juejin-markdown-theme-arknights',
+    highlight: 'atom-one-light',
+    path: 'arknights.scss',
+    ref: '83e8179',
+  },
+  vuepress: {
+    owner: 'promise96319',
+    repo: 'juejin-markdown-theme-vuepress',
+    path: 'vuepress.scss',
+    ref: 'af6f62a',
+    highlight: 'base16/tomorrow-night',
+  },
+  'Chinese-red': {
+    owner: 'Mancuoj',
+    repo: 'juejin-markdown-theme-Chinese-red',
+    path: 'Chinese-red.scss',
+    ref: '6da886e',
+    highlight: 'xcode',
+  },
+  'nico':{
+    owner:"blllld",
+    repo:"juejin-markdown-theme-nico",
+    path:"nico.scss",
+    ref:'8177657',
+    highlight:'atelier-sulphurpool-light'
+  },
+  'devui-blue': {
+    owner: 'kagol',
+    repo: 'juejin-markdown-theme-devui-blue',
+    path: 'devui-blue.scss',
+    ref: '2caac0c',
   },
 };
 
