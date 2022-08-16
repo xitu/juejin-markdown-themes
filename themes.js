@@ -106,7 +106,7 @@ const themes = {
     owner: 'luffyZh',
     repo: 'juejin-markdown-theme-awesome-green',
     path: 'awesome-green.scss',
-    ref: 'fc93130',
+    ref: 'f8ec354',
   },
   'qklhk-chocolate': {
     owner: 'QiaokeliHenku',
