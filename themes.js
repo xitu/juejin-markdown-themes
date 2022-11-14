@@ -8,7 +8,7 @@ const themes = {
     owner: 'xitu',
     repo: 'juejin-markdown-theme-default',
     path: 'juejin.scss',
-    ref: '91e8b31',
+    ref: '6be2ebd',
     highlight: 'juejin',
   },
   github: {
@@ -106,7 +106,7 @@ const themes = {
     owner: 'luffyZh',
     repo: 'juejin-markdown-theme-awesome-green',
     path: 'awesome-green.scss',
-    ref: 'fc93130',
+    ref: 'f8ec354',
   },
   'qklhk-chocolate': {
     owner: 'QiaokeliHenku',
