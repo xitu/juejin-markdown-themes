@@ -167,6 +167,12 @@ const themes = {
     path: 'devui-blue.scss',
     ref: '2caac0c',
   },
+  'yayoi-sakura': {
+    owner: 'Yayoiqz',
+    repo: 'juejin-markdown-theme-yayoi-sakura',
+    path: 'yayoi-sakura.scss',
+    ref: 'afa7f6c',
+  },
 };
 
 export default themes;
