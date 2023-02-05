@@ -51,7 +51,8 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [vuepress](https://github.com/promise96319/juejin-markdown-theme-vuepress) | [qgh](https://juejin.cn/user/3685218708627544) | MIT |
 | [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
 | [nico](https://github.com/blllld/juejin-markdown-theme-nico) | [非思不可](https://juejin.cn/user/553809588523405) | MIT |
-| [devui-blue](https://github.com/kagol/juejin-markdown-theme-devui-blue) | [DevUI团队](https://juejin.cn/user/712139267650141) | MIT |
+| [devui-blue](https://github.com/kagol/juejin-markdown-theme-devui-blue) | [DevUI 团队](https://juejin.cn/user/712139267650141) | MIT |
+| [kakoyi](https://github.com/Henrycheheng/juejin-markdown-theme-koi) | [koi](https://juejin.cn/user/1284683727647950) | MIT |
 
 ### 代码高亮
 
@@ -73,7 +74,6 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 9. 注意考虑样式的稳定性和兼容性
 10. **并非所有 PR 的主题都会入选，挑选和审核会有一定周期**
 
-
 ### ① themes.js 格式说明
 
 ```js
@@ -89,9 +89,9 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 ## License
 
 ## 联系官方
+
 微信：zwcatfly 或者微信： chnyifan
 
 ![middle_img_v2_76ee7552-1a63-41df-900d-5fbefe5a69ag](https://user-images.githubusercontent.com/8282645/139875601-f0f3477d-a03a-4acf-ac8d-7204d4f5bc04.jpg)
-
 
 MIT
