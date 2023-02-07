@@ -8,7 +8,7 @@ const themes = {
     owner: 'xitu',
     repo: 'juejin-markdown-theme-default',
     path: 'juejin.scss',
-    ref: '91e8b31',
+    ref: '6be2ebd',
     highlight: 'juejin',
   },
   github: {
