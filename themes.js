@@ -167,6 +167,13 @@ const themes = {
     path: 'devui-blue.scss',
     ref: '2caac0c',
   },
+  'pink-soda': {
+    owner: 'oil-oil',
+    repo: 'juejin-markdown-theme-oiloil',
+    path: 'pink-soda.scss',
+    ref: '071a5ce',
+    highlight: 'atom-one-dark',
+  },
 };
 
 export default themes;
