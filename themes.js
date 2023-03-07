@@ -171,7 +171,8 @@ const themes = {
     owner: 'Hippyoo',
     repo: 'juejin-markdown-theme-pepper',
     path: 'pepper.scss',
-    ref: '81a83e2',
+    ref: 'd125614',
+    highlight: 'agate',
   },
 };
 
