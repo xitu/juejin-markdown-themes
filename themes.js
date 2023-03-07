@@ -167,6 +167,12 @@ const themes = {
     path: 'devui-blue.scss',
     ref: '2caac0c',
   },
+  'pepper': {
+    owner: 'Hippyoo',
+    repo: 'juejin-markdown-theme-pepper',
+    path: 'pepper.scss',
+    ref: '81a83e2',
+  },
 };
 
 export default themes;
