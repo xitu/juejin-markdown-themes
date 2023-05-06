@@ -2,7 +2,7 @@
 
 [![npm](https://badgen.net/npm/v/juejin-markdown-themes)](https://npm.im/juejin-markdown-themes) [![downloads](https://badgen.net/npm/dt/juejin-markdown-themes)](https://npm.im/juejin-markdown-themes)
 
-[主题预览地址](https://juejin-markdown-themes.netlify.app/)
+[主题预览地址](https://juejin-theme.netlify.app/)
 
 ## 使用方法
 
@@ -52,6 +52,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [Chinese-red](https://github.com/mancuoj/juejin-markdown-theme-Chinese-red) | [Mancuoj](https://juejin.cn/user/3466105460624760) | MIT |
 | [nico](https://github.com/blllld/juejin-markdown-theme-nico) | [非思不可](https://juejin.cn/user/553809588523405) | MIT |
 | [devui-blue](https://github.com/kagol/juejin-markdown-theme-devui-blue) | [DevUI团队](https://juejin.cn/user/712139267650141) | MIT |
+| [qklhk-chocolate](https://github.com/qklhk/juejin-markdown-theme-qklhk/) | [巧克力很苦](https://juejin.cn/user/1011206429358087) | Apache |
 
 ### 代码高亮
 

@@ -109,10 +109,10 @@ const themes = {
     ref: 'f8ec354',
   },
   'qklhk-chocolate': {
-    owner: 'QiaokeliHenku',
-    repo: 'juejin-markdown-theme-qkl',
+    owner: 'qklhk',
+    repo: 'juejin-markdown-theme-qklhk',
     path: 'chocolate.scss',
-    ref: '8bbb87d',
+    ref: '4f2a290',
   },
   'orange': {
     owner: 'RudeCrab',
