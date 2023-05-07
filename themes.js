@@ -8,7 +8,7 @@ const themes = {
     owner: 'xitu',
     repo: 'juejin-markdown-theme-default',
     path: 'juejin.scss',
-    ref: '91e8b31',
+    ref: '6be2ebd',
     highlight: 'juejin',
   },
   github: {
@@ -28,7 +28,7 @@ const themes = {
     owner: 'linxsbox',
     repo: 'juejin-markdown-theme-cyanosis',
     path: 'cyanosis.scss',
-    ref: '6b814ea',
+    ref: '044b052',
     highlight: 'atom-one-dark',
   },
   'channing-cyan': {
@@ -106,13 +106,13 @@ const themes = {
     owner: 'luffyZh',
     repo: 'juejin-markdown-theme-awesome-green',
     path: 'awesome-green.scss',
-    ref: 'fc93130',
+    ref: 'f8ec354',
   },
   'qklhk-chocolate': {
-    owner: 'QiaokeliHenku',
-    repo: 'juejin-markdown-theme-qkl',
+    owner: 'qklhk',
+    repo: 'juejin-markdown-theme-qklhk',
     path: 'chocolate.scss',
-    ref: '8bbb87d',
+    ref: '4f2a290',
   },
   'orange': {
     owner: 'RudeCrab',
