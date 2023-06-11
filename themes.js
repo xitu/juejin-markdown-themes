@@ -171,7 +171,7 @@ const themes = {
     owner: 'liting-yes',
     repo: 'juejin-markdown-theme-liting',
     path: 'liting.scss',
-    ref: '9ac543f',
+    ref: '21ec63e',
     highlight: 'kimbie-light'
   }
 };
