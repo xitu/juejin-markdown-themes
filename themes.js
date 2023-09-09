@@ -165,7 +165,14 @@ const themes = {
     owner: 'kagol',
     repo: 'juejin-markdown-theme-devui-blue',
     path: 'devui-blue.scss',
-    ref: '2caac0c',
+    ref: 'bb59b1b',
+  },
+  'serene-rose': {
+    owner: 'Krue1',
+    repo: 'juejin-markdown-theme-serene-rose',
+    path: 'serene-rose.scss',
+    ref: '0a26041',
+    highlight: 'atom-one-dark',
   },
   'koi': {
     owner: 'Henrycheheng',
