@@ -174,6 +174,13 @@ const themes = {
     ref: '0a26041',
     highlight: 'atom-one-dark',
   },
+  'z-blue': {
+    owner: 'sheng1998',
+    repo: 'juejin-markdown-theme-z-blue',
+    path: 'z-blue.scss',
+    ref: '9057224',
+    highlight: 'androidstudio',
+  },
 };
 
 export default themes;
