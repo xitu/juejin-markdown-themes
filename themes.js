@@ -181,6 +181,13 @@ const themes = {
     ref: '9057224',
     highlight: 'androidstudio',
   },
+  'minimalism': {
+    owner: 'justnewbee',
+    repo: 'juejin-markdown-theme-minimalism',
+    path: 'minimalism.scss',
+    ref: '78d682e',
+    highlight: 'atom-one-dark',
+  },
 };
 
 export default themes;
