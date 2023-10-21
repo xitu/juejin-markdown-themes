@@ -181,6 +181,13 @@ const themes = {
     ref: '9057224',
     highlight: 'androidstudio',
   },
+  yu: {
+    owner: 'jianghurong',
+    repo: 'juejin-markdown-theme-yu',
+    path: 'yu.scss',
+    ref: '168f694',
+    highlight: 'atom-one-dark',
+  },
 };
 
 export default themes;
