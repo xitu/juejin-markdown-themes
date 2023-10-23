@@ -185,7 +185,7 @@ const themes = {
     owner: 'justnewbee',
     repo: 'juejin-markdown-theme-minimalism',
     path: 'minimalism.scss',
-    ref: 'cc3853c',
+    ref: '246f4f0',
     highlight: 'atom-one-dark',
   },
 };
