@@ -54,6 +54,8 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [devui-blue](https://github.com/kagol/juejin-markdown-theme-devui-blue) | [DevUI团队](https://juejin.cn/user/712139267650141) | MIT |
 | [qklhk-chocolate](https://github.com/qklhk/juejin-markdown-theme-qklhk/) | [巧克力很苦](https://juejin.cn/user/1011206429358087) | Apache |
 | [serene-rose](https://github.com/Krue1/juejin-markdown-theme-serene-rose) | [Krue](https://juejin.cn/user/1143110510329256) | MIT |
+| [z-blue](https://github.com/sheng1998/juejin-markdown-theme-z-blue) | [z_](https://juejin.cn/user/4212984289441422) | MIT |
+| [minimalism](https://github.com/justnewbee/juejin-markdown-theme-minimalism) | [驳是](https://juejin.cn/user/442445375748621) | MIT |
 | [koi](https://github.com/Henrycheheng/juejin-markdown-theme-koi) | [koi](https://juejin.cn/user/1284683727647950) | MIT |
 
 ### 代码高亮

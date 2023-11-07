@@ -174,6 +174,20 @@ const themes = {
     ref: '0a26041',
     highlight: 'atom-one-dark',
   },
+  'z-blue': {
+    owner: 'sheng1998',
+    repo: 'juejin-markdown-theme-z-blue',
+    path: 'z-blue.scss',
+    ref: '9057224',
+    highlight: 'androidstudio',
+  },
+  'minimalism': {
+    owner: 'justnewbee',
+    repo: 'juejin-markdown-theme-minimalism',
+    path: 'minimalism.scss',
+    ref: '246f4f0',
+    highlight: 'atom-one-dark',
+  },
   'koi': {
     owner: 'Henrycheheng',
     repo: 'juejin-markdown-theme-koi',
