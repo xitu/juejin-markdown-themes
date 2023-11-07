@@ -56,6 +56,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [serene-rose](https://github.com/Krue1/juejin-markdown-theme-serene-rose) | [Krue](https://juejin.cn/user/1143110510329256) | MIT |
 | [z-blue](https://github.com/sheng1998/juejin-markdown-theme-z-blue) | [z_](https://juejin.cn/user/4212984289441422) | MIT |
 | [minimalism](https://github.com/justnewbee/juejin-markdown-theme-minimalism) | [驳是](https://juejin.cn/user/442445375748621) | MIT |
+| [koi](https://github.com/Henrycheheng/juejin-markdown-theme-koi) | [koi](https://juejin.cn/user/1284683727647950) | MIT |
 
 ### 代码高亮
 
@@ -77,7 +78,6 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 9. 注意考虑样式的稳定性和兼容性
 10. **并非所有 PR 的主题都会入选，挑选和审核会有一定周期**
 
-
 ### ① themes.js 格式说明
 
 ```js
@@ -93,9 +93,9 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 ## License
 
 ## 联系官方
+
 微信：zwcatfly 或者微信： chnyifan
 
 ![middle_img_v2_76ee7552-1a63-41df-900d-5fbefe5a69ag](https://user-images.githubusercontent.com/8282645/139875601-f0f3477d-a03a-4acf-ac8d-7204d4f5bc04.jpg)
-
 
 MIT
