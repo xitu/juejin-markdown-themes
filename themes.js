@@ -195,6 +195,13 @@ const themes = {
     ref: 'a940ce',
     highlight: 'base16/tomorrow-night',
   },
+  'yu': {
+    owner: 'jianghurong',
+    repo: 'juejin-markdown-theme-yu',
+    path: 'yu.scss',
+    ref: '1e3096f',
+    highlight: 'atom-one-dark',
+  },
 };
 
 export default themes;
