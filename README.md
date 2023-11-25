@@ -57,6 +57,7 @@ highlight: juejin # 代码高亮主题，默认值：theme 中指定，没有则
 | [z-blue](https://github.com/sheng1998/juejin-markdown-theme-z-blue) | [z_](https://juejin.cn/user/4212984289441422) | MIT |
 | [minimalism](https://github.com/justnewbee/juejin-markdown-theme-minimalism) | [驳是](https://juejin.cn/user/442445375748621) | MIT |
 | [koi](https://github.com/Henrycheheng/juejin-markdown-theme-koi) | [koi](https://juejin.cn/user/1284683727647950) | MIT |
+| [lilsnake](https://github.com/SnakeLil/juejin-markdown-theme-lilsnake) | [小蛇](https://juejin.cn/user/187347597270411) | MIT |
 
 ### 代码高亮
 

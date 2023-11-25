@@ -195,6 +195,13 @@ const themes = {
     ref: 'a940ce',
     highlight: 'base16/tomorrow-night',
   },
+  'lilsnake': {
+    owner: 'SnakeLil',
+    repo: 'juejin-markdown-theme-lilsnake',
+    path: 'lilsnake.css',
+    ref: 'd9dbeb8',
+    highlight: 'hybrid',
+  },
 };
 
 export default themes;
