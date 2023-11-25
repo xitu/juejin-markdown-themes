@@ -198,7 +198,7 @@ const themes = {
   'lilsnake': {
     owner: 'SnakeLil',
     repo: 'juejin-markdown-theme-lilsnake',
-    path: 'lilsnake.css',
+    path: 'lilsnake.scss',
     ref: 'd9dbeb8',
     highlight: 'hybrid',
   },
