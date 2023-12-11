@@ -195,6 +195,13 @@ const themes = {
     ref: 'a940ce',
     highlight: 'base16/tomorrow-night',
   },
+  'keepnice': {
+    owner: 'yangbo5207',
+    repo: 'juejin-markdown-theme-keepNice',
+    path: 'keepnice.scss',
+    ref: '38645c3',
+    highlight: 'github',
+  }
 };
 
 export default themes;
