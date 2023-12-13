@@ -209,6 +209,13 @@ const themes = {
     ref: 'd9dbeb8',
     highlight: 'hybrid',
   },
+  'keepnice': {
+    owner: 'yangbo5207',
+    repo: 'juejin-markdown-theme-keepNice',
+    path: 'keepnice.scss',
+    ref: '38645c3',
+    highlight: 'github',
+  },
 };
 
 export default themes;
