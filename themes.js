@@ -195,13 +195,27 @@ const themes = {
     ref: 'a940ce',
     highlight: 'base16/tomorrow-night',
   },
+  'yu': {
+    owner: 'jianghurong',
+    repo: 'juejin-markdown-theme-yu',
+    path: 'yu.scss',
+    ref: '1e3096f',
+    highlight: 'atom-one-dark',
+  },
+  'lilsnake': {
+    owner: 'SnakeLil',
+    repo: 'juejin-markdown-theme-lilsnake',
+    path: 'lilsnake.scss',
+    ref: 'd9dbeb8',
+    highlight: 'hybrid',
+  },
   'keepnice': {
     owner: 'yangbo5207',
     repo: 'juejin-markdown-theme-keepNice',
     path: 'keepnice.scss',
     ref: '38645c3',
     highlight: 'github',
-  }
+  },
 };
 
 export default themes;
