@@ -202,6 +202,13 @@ const themes = {
     ref: '1e3096f',
     highlight: 'atom-one-dark',
   },
+  'lilsnake': {
+    owner: 'SnakeLil',
+    repo: 'juejin-markdown-theme-lilsnake',
+    path: 'lilsnake.scss',
+    ref: 'd9dbeb8',
+    highlight: 'hybrid',
+  },
 };
 
 export default themes;
