@@ -114,7 +114,7 @@ const themes = {
     path: 'chocolate.scss',
     ref: '4f2a290',
   },
-  'orange': {
+  orange: {
     owner: 'RudeCrab',
     repo: 'juejin-markdown-theme-rude-crab',
     path: 'rude-crab.scss',
@@ -127,11 +127,12 @@ const themes = {
     path: 'scrolls.scss',
     ref: 'cebc694',
   },
-  'simplicity-green': {
+  spring: {
     owner: 'GuoJikun',
-    repo: 'juejin-markdown-theme-simplicity-green',
-    path: 'simplicity-green.scss',
-    ref: '47cb3fe',
+    repo: 'juejin-markdown-theme-spring',
+    path: 'spring.scss',
+    ref: '9374689',
+    highlight: 'monokai-sublime',
   },
   arknights: {
     owner: 'viewweiwu',
